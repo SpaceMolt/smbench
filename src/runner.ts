@@ -112,7 +112,8 @@ async function main(): Promise<void> {
   const configText = readFileSync(cli.configPath, "utf-8");
   const config = parseYaml(configText) as BenchmarkConfig;
 
-  const serverUrl = config.server.url;
+  const serverUrl = config.server.url.replace(/\/$/, "");
+  const commanderUrl = `${serverUrl}/api/v1`; // Commander expects /api/v1 base
   const adminToken = config.server.admin_token;
   const runsPerScenario = cli.overrideRuns || config.runs_per_scenario || 2;
   const commanderPath = config.commander_path;
@@ -201,7 +202,7 @@ async function main(): Promise<void> {
           model: model.id,
           scenarioPath,
           maxTicks,
-          serverUrl,
+          serverUrl: commanderUrl,
           session: sessionName,
           openrouterApiKey: process.env.OPENROUTER_API_KEY,
           timeoutMs,
