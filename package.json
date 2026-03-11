@@ -1,0 +1,17 @@
+{
+  "name": "@spacemolt/smbench",
+  "version": "0.1.0",
+  "description": "SpaceMolt Benchmark — evaluating LLMs through MMO gameplay",
+  "type": "module",
+  "scripts": {
+    "bench": "bun run src/runner.ts",
+    "build": "bun build src/runner.ts --target bun --outdir dist"
+  },
+  "dependencies": {
+    "yaml": "^2.7.1"
+  },
+  "devDependencies": {
+    "bun-types": "^1.3.0",
+    "typescript": "^5.9.0"
+  }
+}
