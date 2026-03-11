@@ -39,7 +39,7 @@ models:
   - id: deepseek/deepseek-v3.2
     label: "DeepSeek V3.2"
     category: mid-tier
-  - id: qwen/qwen3.5-plus
+  - id: qwen/qwen3.5-plus-02-15
     label: "Qwen 3.5 Plus"
     category: mid-tier
   - id: minimax/minimax-m2.5
@@ -53,7 +53,7 @@ models:
   - id: qwen/qwen3.5-9b
     label: "Qwen 3.5 9B"
     category: budget
-  - id: qwen/qwen3.5-flash
+  - id: qwen/qwen3.5-flash-02-23
     label: "Qwen 3.5 Flash"
     category: budget
   - id: mistral/ministral-3-14b

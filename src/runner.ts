@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 // SMBench Runner — orchestrates benchmark runs across models and scenarios.
 
-import { readFileSync, existsSync, mkdirSync } from "fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
 import { join, resolve, dirname } from "path";
 import { parse as parseYaml } from "yaml";
 import { createAdminClient } from "./lib/admin-client.js";
@@ -100,6 +100,44 @@ function parseArgs(): CLIArgs | null {
   }
 
   return { configPath, outputDir, filterModel, filterScenario, overrideRuns };
+}
+
+// ─── Transcript saving ──────────────────────────────────────
+
+const SENSITIVE_PATTERNS = [
+  /registration_code["']?\s*[:=]\s*["'][^"']+["']/gi,
+  /password["']?\s*[:=]\s*["'][^"']+["']/gi,
+  /token["']?\s*[:=]\s*["'][^"']+["']/gi,
+  /api[_-]?key["']?\s*[:=]\s*["'][^"']+["']/gi,
+  /Bearer\s+[A-Za-z0-9._-]+/gi,
+];
+
+function scrubSensitive(text: string): string {
+  let scrubbed = text;
+  for (const pattern of SENSITIVE_PATTERNS) {
+    scrubbed = scrubbed.replace(pattern, (match) => {
+      const eqIdx = match.search(/[:=]/);
+      if (eqIdx >= 0) {
+        return match.slice(0, eqIdx + 1) + ' "[REDACTED]"';
+      }
+      return "[REDACTED]";
+    });
+  }
+  return scrubbed;
+}
+
+function saveTranscript(
+  outputDir: string,
+  modelId: string,
+  scenarioId: string,
+  run: number,
+  events: import("./lib/process.js").BenchmarkEvent[],
+): void {
+  const modelSlug = modelId.replace(/\//g, "-");
+  const dir = join(outputDir, "transcripts", modelSlug);
+  mkdirSync(dir, { recursive: true });
+  const lines = events.map((e) => scrubSensitive(JSON.stringify(e)));
+  writeFileSync(join(dir, `${scenarioId}-r${run}.jsonl`), lines.join("\n") + "\n");
 }
 
 // ─── Main ────────────────────────────────────────────────────
@@ -217,6 +255,9 @@ async function main(): Promise<void> {
         } catch {
           console.log(`    Could not fetch player stats (player may not have registered)`);
         }
+
+        // Save JSONL transcript (scrubbed)
+        saveTranscript(cli.outputDir, model.id, scenarioId, run, result.events);
 
         // Score the run
         const runScore = scoreRun(scenarioId, result.events, playerStats);

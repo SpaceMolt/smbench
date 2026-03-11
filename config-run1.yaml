@@ -10,7 +10,7 @@ models:
   - id: openai/gpt-oss-20b
     label: "GPT-OSS 20B"
     category: open-source
-  - id: qwen/qwen3.5-plus
+  - id: qwen/qwen3.5-plus-02-15
     label: "Qwen 3.5 Plus"
     category: frontier-fast
   - id: openai/gpt-5.4
