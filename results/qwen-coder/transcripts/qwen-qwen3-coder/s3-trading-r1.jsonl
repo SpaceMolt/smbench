@@ -1,0 +1,61 @@
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:03:50.226Z","model":"qwen/qwen3-coder","tokens_in":2627,"tokens_out":95,"latency_ms":1048,"cost_usd":0.00067294}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T23:03:50.243Z","command":"register","args":{"username":"TraderAI","empire":"Solarian","registration_code": "[REDACTED]"},"error":"[invalid_empire] Invalid empire. Choose one of:\n  - solarian: Masters of energy and trade. Mining and trading bonuses.\n  - voidborn: Children of the dark. Stealth and shield bonuses.\n  - crimson: Warriors of the red nebula. Combat damage bonuses.\n  - nebula: Explorers and scientists. Exploration speed bonuses.\n  - outerrim: Frontier survivors. Crafting and cargo bonuses.\nExample: {\"type\": \"register\", \"payload\": {\"username\": \"myname\", \"empire\": \"solarian\", \"registration_code\": \"your_code\"}}"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:03:51.273Z","model":"qwen/qwen3-coder","tokens_in":2859,"tokens_out":83,"latency_ms":1030,"cost_usd":0.00071198}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:03:51.347Z","command":"register","args":{"username":"TraderAI","empire":"solarian","registration_code": "[REDACTED]"},"success":true,"result_chars":4035}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:03:52.906Z","model":"qwen/qwen3-coder","tokens_in":4596,"tokens_out":160,"latency_ms":1559,"cost_usd":0.00117112}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:03:53.775Z","model":"qwen/qwen3-coder","tokens_in":1897,"tokens_out":49,"latency_ms":868,"cost_usd":0.00046634000000000004}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:03:53.777Z","command":"get_status","args":{},"success":true,"result_chars":1704}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:03:54.711Z","model":"qwen/qwen3-coder","tokens_in":3008,"tokens_out":85,"latency_ms":933,"cost_usd":0.0007467600000000001}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:03:54.714Z","command":"view_market","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:03:55.666Z","model":"qwen/qwen3-coder","tokens_in":2254,"tokens_out":50,"latency_ms":952,"cost_usd":0.00054588}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:03:55.667Z","command":"get_system","args":{},"success":true,"result_chars":2869}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:03:56.953Z","model":"qwen/qwen3-coder","tokens_in":8011,"tokens_out":80,"latency_ms":1286,"cost_usd":0.00184242}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:03:58.086Z","command":"undock","args":{},"success":true,"result_chars":14}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:03:58.717Z","model":"qwen/qwen3-coder","tokens_in":2455,"tokens_out":37,"latency_ms":631,"cost_usd":0.0005771000000000001}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T23:03:58.719Z","command":"travel","args":{"poi":"main_belt"},"error":"[invalid_payload] Unknown parameter(s): [poi]. Requires 'target_poi'. Example: {\"target_poi\": \"main_belt\"}"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:03:59.783Z","model":"qwen/qwen3-coder","tokens_in":8190,"tokens_out":46,"latency_ms":1064,"cost_usd":0.0018478000000000001}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:04:08.085Z","command":"travel","args":{"target_poi":"main_belt"},"success":true,"result_chars":122}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:08.924Z","model":"qwen/qwen3-coder","tokens_in":8263,"tokens_out":38,"latency_ms":839,"cost_usd":0.0018558600000000002}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:04:10.086Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:10.937Z","model":"qwen/qwen3-coder","tokens_in":8375,"tokens_out":36,"latency_ms":851,"cost_usd":0.0018785000000000002}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:04:12.085Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:12.712Z","model":"qwen/qwen3-coder","tokens_in":1478,"tokens_out":36,"latency_ms":627,"cost_usd":0.00036116}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:04:14.083Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:14.908Z","model":"qwen/qwen3-coder","tokens_in":508,"tokens_out":30,"latency_ms":825,"cost_usd":0.00014176}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:04:14.910Z","command":"get_cargo","args":{},"success":true,"result_chars":184}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:15.935Z","model":"qwen/qwen3-coder","tokens_in":8733,"tokens_out":36,"latency_ms":1025,"cost_usd":0.00195726}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:04:16.085Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:16.793Z","model":"qwen/qwen3-coder","tokens_in":448,"tokens_out":51,"latency_ms":708,"cost_usd":0.00014956}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:04:26.085Z","command":"travel","args":{"target_poi":"sol_central"},"success":true,"result_chars":126}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:26.802Z","model":"qwen/qwen3-coder","tokens_in":210,"tokens_out":30,"latency_ms":717,"cost_usd":0.00007620000000000001}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:04:28.086Z","command":"dock","args":{},"success":true,"result_chars":1875}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:28.886Z","model":"qwen/qwen3-coder","tokens_in":4775,"tokens_out":50,"latency_ms":800,"cost_usd":0.0011005}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:04:28.887Z","command":"view_market","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:30.191Z","model":"qwen/qwen3-coder","tokens_in":10688,"tokens_out":51,"latency_ms":1304,"cost_usd":0.00240236}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:04:30.192Z","command":"view_market","args":{"item":"copper_ore"},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:31.228Z","model":"qwen/qwen3-coder","tokens_in":3766,"tokens_out":46,"latency_ms":1036,"cost_usd":0.00087452}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:04:31.232Z","command":"view_market","args":{"search":"copper ore"},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:32.428Z","model":"qwen/qwen3-coder","tokens_in":13384,"tokens_out":44,"latency_ms":1196,"cost_usd":0.0029884800000000004}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:04:32.430Z","command":"view_market","args":{"search":"iron ore"},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:33.718Z","model":"qwen/qwen3-coder","tokens_in":5348,"tokens_out":74,"latency_ms":1288,"cost_usd":0.0012505600000000002}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:04:33.719Z","command":"view_market","args":{"category":"resource"},"success":true,"result_chars":65}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:34.732Z","model":"qwen/qwen3-coder","tokens_in":6810,"tokens_out":57,"latency_ms":1013,"cost_usd":0.0015552}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:04:34.733Z","command":"view_market","args":{"filter":"buy"},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:35.814Z","model":"qwen/qwen3-coder","tokens_in":7324,"tokens_out":56,"latency_ms":1081,"cost_usd":0.0016672800000000002}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T23:04:36.084Z","command":"sell","args":{"item":"copper_ore","quantity":6},"error":"[invalid_item] invalid_item: Unknown item ''. Use exact item ID (e.g. 'iron_ore') or full name (e.g. 'Iron Ore')."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:36.896Z","model":"qwen/qwen3-coder","tokens_in":1555,"tokens_out":52,"latency_ms":812,"cost_usd":0.00039410000000000004}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T23:04:38.085Z","command":"sell","args":{"item":"copper_ore","quantity":6},"error":"[invalid_item] invalid_item: Unknown item ''. Use exact item ID (e.g. 'iron_ore') or full name (e.g. 'Iron Ore')."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:38.919Z","model":"qwen/qwen3-coder","tokens_in":2989,"tokens_out":53,"latency_ms":834,"cost_usd":0.00071058}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T23:04:40.083Z","command":"sell","args":{"item":"copper ore","quantity":6},"error":"[invalid_item] invalid_item: Unknown item ''. Use exact item ID (e.g. 'iron_ore') or full name (e.g. 'Iron Ore')."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:41.179Z","model":"qwen/qwen3-coder","tokens_in":5766,"tokens_out":38,"latency_ms":1095,"cost_usd":0.00130652}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:04:41.181Z","command":"get_cargo","args":{},"success":true,"result_chars":184}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:42.228Z","model":"qwen/qwen3-coder","tokens_in":7984,"tokens_out":56,"latency_ms":1047,"cost_usd":0.0018124800000000002}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T23:04:44.084Z","command":"sell","args":{"item":"copper_ore","quantity":6},"error":"[invalid_item] invalid_item: Unknown item ''. Use exact item ID (e.g. 'iron_ore') or full name (e.g. 'Iron Ore')."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:45.134Z","model":"qwen/qwen3-coder","tokens_in":7763,"tokens_out":53,"latency_ms":1050,"cost_usd":0.0017608600000000002}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:04:45.137Z","command":"analyze_market","args":{"item":"copper_ore"},"success":true,"result_chars":486}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:46.285Z","model":"qwen/qwen3-coder","tokens_in":215,"tokens_out":69,"latency_ms":1148,"cost_usd":0.00011630000000000001}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T23:04:48.084Z","command":"sell","args":{"item":"copper_ore","quantity":6,"price":10},"error":"[invalid_item] invalid_item: Unknown item ''. Use exact item ID (e.g. 'iron_ore') or full name (e.g. 'Iron Ore')."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:04:48.913Z","model":"qwen/qwen3-coder","tokens_in":4988,"tokens_out":39,"latency_ms":829,"cost_usd":0.00113636}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:04:48.917Z","command":"get_commands","args":{},"success":true,"result_chars":4036}
+{"event":"turn_end","tick":0,"ts":"2026-03-11T23:04:48.918Z","reason":"turn_complete","total_tool_calls":29,"total_tokens_in":147267,"total_tokens_out":1680}
+{"event":"scenario_end","tick":8290,"ts":"2026-03-11T23:04:50.923Z","reason":"max_ticks","final_state":{"player":{"id":"6c53586cea410d34325635928f67ac87","username":"TraderAI","empire":"solarian","credits":100,"created_at":"2026-03-11T23:03:51.346038Z","last_login_at":"2026-03-11T23:03:51.346038Z","last_active_at":"2026-03-11T23:04:46.286125Z","status_message":"","clan_tag":"","primary_color":"#FFFFFF","secondary_color":"#000000","is_cloaked":false,"current_ship_id":"7e94a50a794ed843ddeeb59d39935610","current_system":"sol","current_poi":"sol_central","home_base":"confederacy_central_command","last_chat_check":"0001-01-01T00:00:00Z","skills":{},"stats":{"credits_earned":0,"credits_spent":0,"ships_destroyed":0,"ships_lost":0,"pirates_destroyed":0,"bases_destroyed":0,"ore_mined":14,"items_crafted":0,"trades_completed":0,"systems_explored":0,"distance_traveled":0,"time_played":0},"revealed_pois":{},"docked_at_base":"confederacy_central_command"},"ship":{"id":"7e94a50a794ed843ddeeb59d39935610","owner_id":"6c53586cea410d34325635928f67ac87","class_id":"theoria","name":"Theoria","created_at":"2026-03-11T23:03:51.346093Z","hull":100,"max_hull":100,"shield":55,"max_shield":55,"shield_recharge":1,"armor":5,"speed":1,"fuel":98,"max_fuel":100,"cargo_used":14,"cargo_capacity":70,"cpu_used":2,"cpu_capacity":16,"power_used":5,"power_capacity":28,"weapon_slots":1,"defense_slots":1,"utility_slots":3,"modules":["368bbe00c37c543f0646b9c6fc304d95"],"cargo":[{"item_id":"copper_ore","quantity":6},{"item_id":"iron_ore","quantity":8}]},"modules":[{"id":"368bbe00c37c543f0646b9c6fc304d95","type_id":"mining_laser_i","name":"Mining Laser I","type":"mining","size":10,"quality":1,"quality_grade":"Standard","wear":0,"wear_status":"Pristine","cpu_usage":2,"power_usage":5,"mining_power":5,"mining_range":5}]}}

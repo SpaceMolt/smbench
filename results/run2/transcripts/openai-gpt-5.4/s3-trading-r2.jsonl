@@ -1,0 +1,15 @@
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:55:17.646Z","model":"openai/gpt-5.4","tokens_in":2529,"tokens_out":67,"latency_ms":3331,"cost_usd":0.005594}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:55:20.068Z","model":"openai/gpt-5.4","tokens_in":1478,"tokens_out":17,"latency_ms":2420,"cost_usd":0.0030919999999999997}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:55:20.093Z","command":"help","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:55:21.253Z","model":"openai/gpt-5.4","tokens_in":1074,"tokens_out":40,"latency_ms":1160,"cost_usd":0.0024679999999999997}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:55:21.254Z","command":"{\"type\":\"register\",\"payload\":{\"username\":\"ProfitPilotNova\",\"empire\":\"Solarian\",\"registration_code\":\"\"}}","args":{},"error":"[unknown_command] Unknown command: {\"type\":\"register\",\"payload\":{\"username\":\"ProfitPilotNova\",\"empire\":\"Solarian\",\"registration_code\":\"\"}}. Use the 'help' command to see available commands."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:55:22.192Z","model":"openai/gpt-5.4","tokens_in":145,"tokens_out":18,"latency_ms":938,"cost_usd":0.00043400000000000003}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:55:22.194Z","command":"get_commands","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:55:23.175Z","model":"openai/gpt-5.4","tokens_in":1153,"tokens_out":17,"latency_ms":981,"cost_usd":0.0024419999999999997}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:55:23.188Z","command":"register","args":{},"error":"[invalid_username] Username must be 3-24 characters"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:55:25.570Z","model":"openai/gpt-5.4","tokens_in":170,"tokens_out":22,"latency_ms":2382,"cost_usd":0.000516}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:55:25.571Z","command":"register ProfitPilotNova Solarian","args":{},"error":"[unknown_command] Unknown command: register ProfitPilotNova Solarian. Use the 'help' command to see available commands."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:55:31.959Z","model":"openai/gpt-5.4","tokens_in":229,"tokens_out":456,"latency_ms":6388,"cost_usd":0.004105999999999999}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:55:37.499Z","model":"openai/gpt-5.4","tokens_in":200,"tokens_out":289,"latency_ms":5531,"cost_usd":0.002712}
+{"event":"turn_end","tick":0,"ts":"2026-03-11T21:55:37.501Z","reason":"turn_complete","total_tool_calls":5,"total_tokens_in":6978,"total_tokens_out":926}
+{"event":"scenario_end","tick":6214,"ts":"2026-03-11T21:55:39.507Z","reason":"max_ticks","final_state":{}}

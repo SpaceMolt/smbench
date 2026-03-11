@@ -1,0 +1,18 @@
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:57:01.534Z","model":"openai/gpt-5.4","tokens_in":2722,"tokens_out":163,"latency_ms":3402,"cost_usd":0.0067480000000000005}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:57:01.537Z","command":"get_status","args":{},"error":"[session_invalid] Unauthorized — session lost"}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:57:01.538Z","command":"get_cargo","args":{},"error":"[session_invalid] Unauthorized — session lost"}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:57:01.539Z","command":"get_active_missions","args":{},"error":"[session_invalid] Unauthorized — session lost"}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:57:01.541Z","command":"get_system","args":{},"error":"[session_invalid] Unauthorized — session lost"}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:57:01.542Z","command":"get_poi","args":{},"error":"[session_invalid] Unauthorized — session lost"}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:57:01.543Z","command":"get_ship","args":{},"error":"[session_invalid] Unauthorized — session lost"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:57:02.916Z","model":"openai/gpt-5.4","tokens_in":586,"tokens_out":45,"latency_ms":1373,"cost_usd":0.001532}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:57:04.189Z","model":"openai/gpt-5.4","tokens_in":132,"tokens_out":17,"latency_ms":1272,"cost_usd":0.00039999999999999996}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:57:54.216Z","command":"login","args":{},"error":"[auth_failed] Invalid username or password. Passwords are random hex strings."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:57:55.584Z","model":"openai/gpt-5.4","tokens_in":177,"tokens_out":37,"latency_ms":1367,"cost_usd":0.00065}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:57:57.078Z","model":"openai/gpt-5.4","tokens_in":99,"tokens_out":57,"latency_ms":1493,"cost_usd":0.000654}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:57:57.079Z","command":"login","args":{},"error":"[auth_failed] Invalid username or password. Passwords are random hex strings."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:57:58.609Z","model":"openai/gpt-5.4","tokens_in":3640,"tokens_out":24,"latency_ms":1530,"cost_usd":0.007472}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:57:58.611Z","command":"claim","args":{},"error":"[session_invalid] Unauthorized — session lost"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:58:00.879Z","model":"openai/gpt-5.4","tokens_in":100,"tokens_out":103,"latency_ms":2268,"cost_usd":0.001024}
+{"event":"turn_end","tick":0,"ts":"2026-03-11T21:58:00.881Z","reason":"turn_complete","total_tool_calls":9,"total_tokens_in":7456,"total_tokens_out":446}
+{"event":"scenario_end","tick":6286,"ts":"2026-03-11T21:58:02.889Z","reason":"max_ticks","final_state":{}}

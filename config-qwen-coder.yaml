@@ -1,0 +1,21 @@
+server:
+  url: http://localhost:8090
+  admin_token: benchmark-admin-token
+  tick_rate: 2
+
+commander_path: ../commander/src/commander.ts
+scenarios_dir: scenarios
+
+models:
+  - id: qwen/qwen3-coder
+    label: "Qwen 3 Coder 480B"
+    category: frontier
+
+scenarios:
+  - s1-bootstrap-grind
+  - s2-navigation
+  - s3-trading
+  - s5-combat
+  - s6-mission-runner
+
+runs_per_scenario: 2

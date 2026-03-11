@@ -1,0 +1,14 @@
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:52:57.201Z","model":"openai/gpt-5.4","tokens_in":914,"tokens_out":65,"latency_ms":1469,"cost_usd":0.002348}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:52:58.004Z","model":"openai/gpt-5.4","tokens_in":442,"tokens_out":17,"latency_ms":802,"cost_usd":0.0010199999999999999}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:52:58.008Z","command":"help","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:52:58.752Z","model":"openai/gpt-5.4","tokens_in":1081,"tokens_out":18,"latency_ms":744,"cost_usd":0.002306}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:52:58.755Z","command":"get_commands","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:53:01.348Z","model":"openai/gpt-5.4","tokens_in":1074,"tokens_out":17,"latency_ms":2593,"cost_usd":0.0022839999999999996}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:53:01.350Z","command":"register","args":{},"error":"[invalid_username] Username must be 3-24 characters"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:53:02.644Z","model":"openai/gpt-5.4","tokens_in":91,"tokens_out":43,"latency_ms":1294,"cost_usd":0.000526}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:53:03.485Z","model":"openai/gpt-5.4","tokens_in":147,"tokens_out":18,"latency_ms":840,"cost_usd":0.000438}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:53:03.487Z","command":"get_status","args":{},"error":"[session_invalid] Unauthorized — session lost"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:53:06.865Z","model":"openai/gpt-5.4","tokens_in":185,"tokens_out":193,"latency_ms":3378,"cost_usd":0.001914}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:53:10.861Z","model":"openai/gpt-5.4","tokens_in":138,"tokens_out":218,"latency_ms":3993,"cost_usd":0.00202}
+{"event":"turn_end","tick":0,"ts":"2026-03-11T21:53:10.863Z","reason":"turn_complete","total_tool_calls":4,"total_tokens_in":4072,"total_tokens_out":589}
+{"event":"scenario_end","tick":6141,"ts":"2026-03-11T21:53:12.871Z","reason":"max_ticks","final_state":{}}

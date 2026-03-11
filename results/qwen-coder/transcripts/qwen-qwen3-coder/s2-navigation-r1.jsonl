@@ -1,0 +1,57 @@
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:10.349Z","model":"qwen/qwen3-coder","tokens_in":2522,"tokens_out":79,"latency_ms":1036,"cost_usd":0.00063384}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T22:59:10.351Z","command":"register","args":{"username":"NavigatorAlpha","empire":"Nebula","registration_code": "[REDACTED]"},"error":"[invalid_empire] Invalid empire. Choose one of:\n  - solarian: Masters of energy and trade. Mining and trading bonuses.\n  - voidborn: Children of the dark. Stealth and shield bonuses.\n  - crimson: Warriors of the red nebula. Combat damage bonuses.\n  - nebula: Explorers and scientists. Exploration speed bonuses.\n  - outerrim: Frontier survivors. Crafting and cargo bonuses.\nExample: {\"type\": \"register\", \"payload\": {\"username\": \"myname\", \"empire\": \"solarian\", \"registration_code\": \"your_code\"}}"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:11.169Z","model":"qwen/qwen3-coder","tokens_in":179,"tokens_out":81,"latency_ms":818,"cost_usd":0.00012037999999999998}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T22:59:11.238Z","command":"register","args":{"username":"NavigatorAlpha","empire":"nebula","registration_code": "[REDACTED]"},"success":true,"result_chars":3793}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:12.555Z","model":"qwen/qwen3-coder","tokens_in":1571,"tokens_out":154,"latency_ms":1317,"cost_usd":0.0004996200000000001}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:13.089Z","model":"qwen/qwen3-coder","tokens_in":82,"tokens_out":43,"latency_ms":533,"cost_usd":0.00006104}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T22:59:13.090Z","command":"get_status","args":{},"success":true,"result_chars":1704}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:13.864Z","model":"qwen/qwen3-coder","tokens_in":873,"tokens_out":35,"latency_ms":774,"cost_usd":0.00022706}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T22:59:14.088Z","command":"undock","args":{},"success":true,"result_chars":14}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:14.549Z","model":"qwen/qwen3-coder","tokens_in":31,"tokens_out":47,"latency_ms":460,"cost_usd":0.000053819999999999996}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T22:59:14.554Z","command":"get_map","args":{},"success":true,"result_chars":4037}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:15.105Z","model":"qwen/qwen3-coder","tokens_in":1789,"tokens_out":44,"latency_ms":551,"cost_usd":0.00043758}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T22:59:15.107Z","command":"get_system","args":{},"success":true,"result_chars":2067}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:15.644Z","model":"qwen/qwen3-coder","tokens_in":684,"tokens_out":42,"latency_ms":537,"cost_usd":0.00019248}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T22:59:15.648Z","command":"get_nearby","args":{},"success":true,"result_chars":74}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:16.353Z","model":"qwen/qwen3-coder","tokens_in":64,"tokens_out":66,"latency_ms":705,"cost_usd":0.00008007999999999999}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T22:59:16.354Z","command":"find_route","args":{"to":"market_prime"},"error":"[invalid_payload] Unknown parameter(s): [to]. Requires 'target_system'. Example: {\"target_system\": \"sol\"}"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:16.882Z","model":"qwen/qwen3-coder","tokens_in":107,"tokens_out":50,"latency_ms":528,"cost_usd":0.00007354}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T22:59:16.886Z","command":"find_route","args":{"target_system":"market_prime"},"success":true,"result_chars":278}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:17.376Z","model":"qwen/qwen3-coder","tokens_in":139,"tokens_out":45,"latency_ms":490,"cost_usd":0.00007558}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T22:59:17.378Z","command":"travel","args":{"target":"market_prime"},"error":"[invalid_payload] Unknown parameter(s): [target]. Requires 'target_poi'. Example: {\"target_poi\": \"main_belt\"}"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:17.870Z","model":"qwen/qwen3-coder","tokens_in":101,"tokens_out":53,"latency_ms":492,"cost_usd":0.00007522}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T22:59:17.870Z","command":"get_system","args":{"system_id":"market_prime"},"success":true,"result_chars":2067}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:18.551Z","model":"qwen/qwen3-coder","tokens_in":669,"tokens_out":58,"latency_ms":680,"cost_usd":0.00020518}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T22:59:32.087Z","command":"jump","args":{"target_system":"market_prime"},"success":true,"result_chars":129}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:32.629Z","model":"qwen/qwen3-coder","tokens_in":79,"tokens_out":48,"latency_ms":542,"cost_usd":0.00006538}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T22:59:32.632Z","command":"get_status","args":{},"success":true,"result_chars":1666}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:33.069Z","model":"qwen/qwen3-coder","tokens_in":868,"tokens_out":40,"latency_ms":437,"cost_usd":0.00023096}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T22:59:33.070Z","command":"get_system","args":{},"success":true,"result_chars":1518}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:34.130Z","model":"qwen/qwen3-coder","tokens_in":499,"tokens_out":72,"latency_ms":1060,"cost_usd":0.00018178}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:34.752Z","model":"qwen/qwen3-coder","tokens_in":77,"tokens_out":48,"latency_ms":621,"cost_usd":0.00006494}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T22:59:48.088Z","command":"jump","args":{"target_system":"cargo_lanes"},"success":true,"result_chars":131}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:48.666Z","model":"qwen/qwen3-coder","tokens_in":118,"tokens_out":38,"latency_ms":578,"cost_usd":0.00006396}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T22:59:48.667Z","command":"get_status","args":{},"success":true,"result_chars":1661}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:49.323Z","model":"qwen/qwen3-coder","tokens_in":831,"tokens_out":40,"latency_ms":656,"cost_usd":0.00022282}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T22:59:49.324Z","command":"get_system","args":{},"success":true,"result_chars":1824}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:50.268Z","model":"qwen/qwen3-coder","tokens_in":650,"tokens_out":92,"latency_ms":944,"cost_usd":0.00023500000000000002}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T22:59:51.056Z","model":"qwen/qwen3-coder","tokens_in":56,"tokens_out":57,"latency_ms":787,"cost_usd":0.00006932}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:00:04.087Z","command":"jump","args":{"target_system":"gold_run"},"success":true,"result_chars":124}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:00:04.536Z","model":"qwen/qwen3-coder","tokens_in":105,"tokens_out":33,"latency_ms":449,"cost_usd":0.000056099999999999995}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:00:04.539Z","command":"get_status","args":{},"success":true,"result_chars":1659}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:00:05.016Z","model":"qwen/qwen3-coder","tokens_in":813,"tokens_out":40,"latency_ms":477,"cost_usd":0.00021886}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:00:05.017Z","command":"get_system","args":{},"success":true,"result_chars":2335}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:00:05.919Z","model":"qwen/qwen3-coder","tokens_in":792,"tokens_out":103,"latency_ms":902,"cost_usd":0.00027724}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:00:06.529Z","model":"qwen/qwen3-coder","tokens_in":81,"tokens_out":57,"latency_ms":610,"cost_usd":0.00007481999999999999}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:00:20.085Z","command":"jump","args":{"target_system":"bunda"},"success":true,"result_chars":118}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:00:20.654Z","model":"qwen/qwen3-coder","tokens_in":66,"tokens_out":33,"latency_ms":569,"cost_usd":0.00004751999999999999}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:00:20.656Z","command":"get_status","args":{},"success":true,"result_chars":1659}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:00:21.129Z","model":"qwen/qwen3-coder","tokens_in":839,"tokens_out":40,"latency_ms":473,"cost_usd":0.00022458}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:00:21.130Z","command":"get_system","args":{},"success":true,"result_chars":1304}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:00:22.382Z","model":"qwen/qwen3-coder","tokens_in":495,"tokens_out":112,"latency_ms":1252,"cost_usd":0.0002209}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:00:22.964Z","model":"qwen/qwen3-coder","tokens_in":49,"tokens_out":58,"latency_ms":581,"cost_usd":0.00006878}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:00:36.086Z","command":"jump","args":{"target_system":"copernicus"},"success":true,"result_chars":130}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T23:00:36.702Z","model":"qwen/qwen3-coder","tokens_in":102,"tokens_out":34,"latency_ms":616,"cost_usd":0.00005644}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T23:00:36.703Z","command":"get_status","args":{},"success":true,"result_chars":1669}
+{"event":"turn_end","tick":0,"ts":"2026-03-11T23:00:36.704Z","reason":"turn_complete","total_tool_calls":25,"total_tokens_in":15331,"total_tokens_out":1742}
+{"event":"scenario_end","tick":8164,"ts":"2026-03-11T23:00:38.707Z","reason":"max_ticks","final_state":{"player":{"id":"5bf44c5ee95b1e69ff387ac910c44088","username":"NavigatorAlpha","empire":"nebula","credits":100,"created_at":"2026-03-11T22:59:11.237048Z","last_login_at":"2026-03-11T22:59:11.237048Z","last_active_at":"2026-03-11T23:00:36.085974Z","status_message":"","clan_tag":"","primary_color":"#FFFFFF","secondary_color":"#000000","is_cloaked":false,"current_ship_id":"74ffdeeb4623fad554870dd03d658672","current_system":"copernicus","current_poi":"copernicus_star","home_base":"grand_exchange_station","last_chat_check":"0001-01-01T00:00:00Z","skills":{},"stats":{"credits_earned":0,"credits_spent":0,"ships_destroyed":0,"ships_lost":0,"pirates_destroyed":0,"bases_destroyed":0,"ore_mined":0,"items_crafted":0,"trades_completed":0,"systems_explored":5,"distance_traveled":0,"time_played":0},"revealed_pois":{}},"ship":{"id":"74ffdeeb4623fad554870dd03d658672","owner_id":"5bf44c5ee95b1e69ff387ac910c44088","class_id":"prospect","name":"Prospect","created_at":"2026-03-11T22:59:11.237072Z","hull":95,"max_hull":95,"shield":50,"max_shield":50,"shield_recharge":1,"armor":4,"speed":1,"fuel":125,"max_fuel":130,"cargo_used":0,"cargo_capacity":100,"cpu_used":2,"cpu_capacity":13,"power_used":5,"power_capacity":26,"weapon_slots":1,"defense_slots":1,"utility_slots":2,"modules":["e2dc48b4582a02f2432fea8323619bfc"],"cargo":[]},"modules":[{"id":"e2dc48b4582a02f2432fea8323619bfc","type_id":"mining_laser_i","name":"Mining Laser I","type":"mining","size":10,"quality":1,"quality_grade":"Standard","wear":0,"wear_status":"Pristine","cpu_usage":2,"power_usage":5,"mining_power":5,"mining_range":5}]}}

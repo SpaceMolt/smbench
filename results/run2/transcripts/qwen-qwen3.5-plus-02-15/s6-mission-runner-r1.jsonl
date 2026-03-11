@@ -1,0 +1,61 @@
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:47:10.223Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":2537,"tokens_out":918,"latency_ms":9568,"cost_usd":0.012417999999999998}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:47:10.229Z","command":"get_status","args":{},"error":"[session_invalid] Unauthorized — session lost"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:47:13.093Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":2602,"tokens_out":149,"latency_ms":2864,"cost_usd":0.006395999999999999}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:47:13.094Z","command":"register","args":{"username":"MissionRunner","empire":"Nebula","registration_code": "[REDACTED]"},"error":"[invalid_empire] Invalid empire. Choose one of:\n  - solarian: Masters of energy and trade. Mining and trading bonuses.\n  - voidborn: Children of the dark. Stealth and shield bonuses.\n  - crimson: Warriors of the red nebula. Combat damage bonuses.\n  - nebula: Explorers and scientists. Exploration speed bonuses.\n  - outerrim: Frontier survivors. Crafting and cargo bonuses.\nExample: {\"type\": \"register\", \"payload\": {\"username\": \"myname\", \"empire\": \"solarian\", \"registration_code\": \"your_code\"}}"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:47:15.526Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":2812,"tokens_out":118,"latency_ms":2432,"cost_usd":0.006567999999999999}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:47:15.612Z","command":"register","args":{"username":"MissionRunner","empire":"nebula","registration_code": "[REDACTED]"},"success":true,"result_chars":3792}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:47:18.744Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":4418,"tokens_out":151,"latency_ms":3132,"cost_usd":0.010044}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:47:20.964Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":4590,"tokens_out":121,"latency_ms":2219,"cost_usd":0.010147999999999999}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:47:20.967Z","command":"get_missions","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:47:26.126Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":5601,"tokens_out":397,"latency_ms":5158,"cost_usd":0.014378}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:47:28.096Z","command":"accept_mission","args":{"mission_id":"market_participation_selling"},"success":true,"result_chars":349}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:47:30.529Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":5782,"tokens_out":83,"latency_ms":2433,"cost_usd":0.012228}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:47:30.530Z","command":"get_cargo","args":{},"success":true,"result_chars":48}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:47:32.772Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":5903,"tokens_out":72,"latency_ms":2242,"cost_usd":0.012381999999999999}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:47:32.774Z","command":"get_system","args":{},"success":true,"result_chars":2067}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:47:35.151Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":6633,"tokens_out":134,"latency_ms":2377,"cost_usd":0.014338}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:47:36.094Z","command":"undock","args":{},"success":true,"result_chars":14}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:47:37.748Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":6692,"tokens_out":46,"latency_ms":1654,"cost_usd":0.013752}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:47:37.749Z","command":"travel","args":{"destination":"commerce_fields"},"error":"[invalid_payload] Unknown parameter(s): [destination]. Requires 'target_poi'. Example: {\"target_poi\": \"main_belt\"}"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:47:39.722Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":6783,"tokens_out":48,"latency_ms":1973,"cost_usd":0.01395}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:47:48.093Z","command":"travel","args":{"target_poi":"commerce_fields"},"success":true,"result_chars":134}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:47:49.544Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":6878,"tokens_out":40,"latency_ms":1450,"cost_usd":0.014075999999999998}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:47:50.095Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:47:52.045Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":6992,"tokens_out":65,"latency_ms":1950,"cost_usd":0.014504}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:47:52.094Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:47:53.604Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":7131,"tokens_out":40,"latency_ms":1510,"cost_usd":0.014581999999999998}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:47:54.093Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:47:55.793Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":7245,"tokens_out":40,"latency_ms":1700,"cost_usd":0.01481}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:47:56.093Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:47:57.590Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":7359,"tokens_out":40,"latency_ms":1496,"cost_usd":0.015038}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:47:58.093Z","command":"mine","args":{},"success":true,"result_chars":158}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:48:00.252Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":7472,"tokens_out":65,"latency_ms":2159,"cost_usd":0.015463999999999999}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:48:00.253Z","command":"get_cargo","args":{},"success":true,"result_chars":188}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:48:02.741Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":7627,"tokens_out":88,"latency_ms":2488,"cost_usd":0.015958}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:48:12.093Z","command":"travel","args":{"target_poi":"grand_exchange"},"success":true,"result_chars":132}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:48:13.688Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":7762,"tokens_out":40,"latency_ms":1595,"cost_usd":0.015844}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:48:14.094Z","command":"dock","args":{},"success":true,"result_chars":2005}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:48:16.281Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":8232,"tokens_out":103,"latency_ms":2187,"cost_usd":0.017287999999999998}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:48:16.282Z","command":"view_market","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:48:17.999Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":9661,"tokens_out":60,"latency_ms":1717,"cost_usd":0.019802}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:48:18.000Z","command":"analyze_market","args":{"item_id":"iron_ore"},"success":true,"result_chars":481}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:48:20.146Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":9886,"tokens_out":104,"latency_ms":2146,"cost_usd":0.020603999999999997}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:48:22.099Z","command":"create_sell_order","args":{"item_id":"iron_ore","quantity":10,"price_each":6},"success":true,"result_chars":481}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:48:25.176Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":10154,"tokens_out":104,"latency_ms":3077,"cost_usd":0.02114}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:48:26.093Z","command":"complete_mission","args":{"mission_id":"0a3bd7a1ead5f900fcc88129f1130b3b"},"success":true,"result_chars":259}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:48:27.758Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":10361,"tokens_out":61,"latency_ms":1664,"cost_usd":0.021209999999999996}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:48:27.760Z","command":"get_missions","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:48:29.393Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":11397,"tokens_out":50,"latency_ms":1633,"cost_usd":0.023194}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:48:30.092Z","command":"accept_mission","args":{"mission_id":"iron_supply_run"},"success":true,"result_chars":236}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:48:32.008Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":11556,"tokens_out":96,"latency_ms":1916,"cost_usd":0.023880000000000002}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:48:32.094Z","command":"undock","args":{},"success":true,"result_chars":14}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:48:34.907Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":11670,"tokens_out":48,"latency_ms":2813,"cost_usd":0.023724}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:48:44.098Z","command":"travel","args":{"target_poi":"commerce_fields"},"success":true,"result_chars":134}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:48:45.926Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":11765,"tokens_out":42,"latency_ms":1828,"cost_usd":0.023866}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:48:45.927Z","command":"get_cargo","args":{},"success":true,"result_chars":186}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:48:47.680Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":11895,"tokens_out":69,"latency_ms":1753,"cost_usd":0.024342}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:48:48.093Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:48:49.797Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":12038,"tokens_out":57,"latency_ms":1704,"cost_usd":0.024532}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:48:50.094Z","command":"mine","args":{},"success":true,"result_chars":155}
+{"event":"turn_end","tick":0,"ts":"2026-03-11T21:48:50.095Z","reason":"turn_complete","total_tool_calls":29,"total_tokens_in":231434,"total_tokens_out":3449}
+{"event":"scenario_end","tick":6011,"ts":"2026-03-11T21:48:52.099Z","reason":"max_ticks","final_state":{"player":{"id":"09f31ac63a98e481f27a449723cae364","username":"MissionRunner","empire":"nebula","credits":1160,"created_at":"2026-03-11T21:47:15.610211Z","last_login_at":"2026-03-11T21:47:15.610211Z","last_active_at":"2026-03-11T21:48:50.093367Z","status_message":"","clan_tag":"","primary_color":"#FFFFFF","secondary_color":"#000000","is_cloaked":false,"current_ship_id":"31c994e3efcc01da4fee9b9f3a19e7a0","current_system":"haven","current_poi":"commerce_fields","home_base":"grand_exchange_station","last_chat_check":"0001-01-01T00:00:00Z","skills":{},"stats":{"credits_earned":1060,"credits_spent":0,"ships_destroyed":0,"ships_lost":0,"pirates_destroyed":0,"bases_destroyed":0,"ore_mined":20,"items_crafted":0,"trades_completed":0,"systems_explored":0,"distance_traveled":0,"time_played":0},"revealed_pois":{},"completed_missions":{"market_participation_selling":"2026-03-11T21:48:26.09313Z"}},"ship":{"id":"31c994e3efcc01da4fee9b9f3a19e7a0","owner_id":"09f31ac63a98e481f27a449723cae364","class_id":"prospect","name":"Prospect","created_at":"2026-03-11T21:47:15.610228Z","hull":95,"max_hull":95,"shield":50,"max_shield":50,"shield_recharge":1,"armor":4,"speed":1,"fuel":127,"max_fuel":130,"cargo_used":10,"cargo_capacity":100,"cpu_used":2,"cpu_capacity":13,"power_used":5,"power_capacity":26,"weapon_slots":1,"defense_slots":1,"utility_slots":2,"modules":["b8ebf1e97dc1932a30b612217ef0644f"],"cargo":[{"item_id":"iron_ore","quantity":2},{"item_id":"silicon_ore","quantity":3},{"item_id":"copper_ore","quantity":3},{"item_id":"nickel_ore","quantity":2}]},"modules":[{"id":"b8ebf1e97dc1932a30b612217ef0644f","type_id":"mining_laser_i","name":"Mining Laser I","type":"mining","size":10,"quality":1,"quality_grade":"Standard","wear":0,"wear_status":"Pristine","cpu_usage":2,"power_usage":5,"mining_power":5,"mining_range":5}]}}

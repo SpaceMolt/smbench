@@ -1,0 +1,14 @@
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:53:37.475Z","model":"openai/gpt-5.4","tokens_in":958,"tokens_out":47,"latency_ms":1341,"cost_usd":0.0022919999999999998}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:53:38.336Z","model":"openai/gpt-5.4","tokens_in":122,"tokens_out":15,"latency_ms":859,"cost_usd":0.00036399999999999996}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:53:39.667Z","model":"openai/gpt-5.4","tokens_in":532,"tokens_out":61,"latency_ms":1330,"cost_usd":0.001552}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:53:39.678Z","command":"help","args":{},"success":true,"result_chars":4036}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:53:39.681Z","command":"get_commands","args":{},"success":true,"result_chars":4036}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:53:39.682Z","command":"get_version","args":{},"success":true,"result_chars":4035}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:53:40.751Z","model":"openai/gpt-5.4","tokens_in":2887,"tokens_out":46,"latency_ms":1069,"cost_usd":0.006142}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:53:40.752Z","command":"register","args":{},"error":"[invalid_username] Username must be 3-24 characters"}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:53:40.754Z","command":"claim","args":{},"error":"[session_invalid] Unauthorized — session lost"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:53:42.371Z","model":"openai/gpt-5.4","tokens_in":159,"tokens_out":62,"latency_ms":1617,"cost_usd":0.000814}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:53:48.154Z","model":"openai/gpt-5.4","tokens_in":106,"tokens_out":450,"latency_ms":5782,"cost_usd":0.003812}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:53:51.872Z","model":"openai/gpt-5.4","tokens_in":188,"tokens_out":220,"latency_ms":3717,"cost_usd":0.002136}
+{"event":"turn_end","tick":0,"ts":"2026-03-11T21:53:51.874Z","reason":"turn_complete","total_tool_calls":5,"total_tokens_in":4952,"total_tokens_out":901}
+{"event":"scenario_end","tick":6161,"ts":"2026-03-11T21:53:53.878Z","reason":"max_ticks","final_state":{}}

@@ -1,0 +1,10 @@
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:56:43.368Z","model":"openai/gpt-5.4","tokens_in":2467,"tokens_out":79,"latency_ms":1558,"cost_usd":0.005566}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:56:44.981Z","model":"openai/gpt-5.4","tokens_in":521,"tokens_out":47,"latency_ms":1611,"cost_usd":0.001418}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:56:44.987Z","command":"help","args":{},"success":true,"result_chars":4036}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:56:44.988Z","command":"get_commands","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:56:45.778Z","model":"openai/gpt-5.4","tokens_in":2195,"tokens_out":17,"latency_ms":789,"cost_usd":0.004526}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:56:45.779Z","command":"register","args":{},"error":"[invalid_username] Username must be 3-24 characters"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:56:49.303Z","model":"openai/gpt-5.4","tokens_in":188,"tokens_out":232,"latency_ms":3524,"cost_usd":0.002232}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:56:52.195Z","model":"openai/gpt-5.4","tokens_in":191,"tokens_out":193,"latency_ms":2891,"cost_usd":0.001926}
+{"event":"turn_end","tick":0,"ts":"2026-03-11T21:56:52.196Z","reason":"turn_complete","total_tool_calls":3,"total_tokens_in":5562,"total_tokens_out":568}
+{"event":"scenario_end","tick":6252,"ts":"2026-03-11T21:56:54.202Z","reason":"max_ticks","final_state":{}}

@@ -1,0 +1,23 @@
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:20:44.949Z","model":"openai/gpt-oss-20b","tokens_in":2650,"tokens_out":493,"latency_ms":2401,"cost_usd":0.00014852}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:20:44.953Z","command":"get_status","args":{},"error":"[session_invalid] Unauthorized — session lost"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:20:48.957Z","model":"openai/gpt-oss-20b","tokens_in":2695,"tokens_out":227,"latency_ms":4004,"cost_usd":0.00011262999999999998}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:21:18.969Z","command":"login","args":{"username":"AstraNova","password": "[REDACTED]"},"error":"[auth_failed] Invalid username or password. Passwords are random hex strings."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:21:28.656Z","model":"openai/gpt-oss-20b","tokens_in":2791,"tokens_out":1116,"latency_ms":9687,"cost_usd":0.00023997}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:21:28.659Z","command":"game<|channel|>commentary","args":{"command":"login","args":{"username":"AstraNova","password": "[REDACTED]"}},"error":"[unknown_command] Unknown command: game<|channel|>commentary. Use the 'help' command to see available commands."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:21:42.352Z","model":"openai/gpt-oss-20b","tokens_in":3722,"tokens_out":175,"latency_ms":1855,"cost_usd":0.00013616}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:21:42.354Z","command":"login","args":{"password": "[REDACTED]","username":"AstraNova"},"error":"[auth_failed] Invalid username or password. Passwords are random hex strings."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:21:52.275Z","model":"openai/gpt-oss-20b","tokens_in":2997,"tokens_out":813,"latency_ms":9921,"cost_usd":0.00020373}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:21:52.282Z","command":"help","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:21:53.153Z","model":"openai/gpt-oss-20b","tokens_in":4041,"tokens_out":154,"latency_ms":871,"cost_usd":0.00014278999999999998}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:21:53.157Z","command":"get_status","args":{},"error":"[session_invalid] Unauthorized — session lost"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:22:00.400Z","model":"openai/gpt-oss-20b","tokens_in":4060,"tokens_out":513,"latency_ms":7243,"cost_usd":0.00019361999999999998}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:22:00.402Z","command":"login","args":{"username":"AstraNova","password": "[REDACTED]"},"error":"[auth_failed] Invalid username or password. Passwords are random hex strings."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:22:13.817Z","model":"openai/gpt-oss-20b","tokens_in":4156,"tokens_out":889,"latency_ms":13415,"cost_usd":0.00024914}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:22:54.699Z","model":"openai/gpt-oss-20b","tokens_in":4337,"tokens_out":2789,"latency_ms":12200,"cost_usd":0.00052057}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:22:58.483Z","model":"openai/gpt-oss-20b","tokens_in":4384,"tokens_out":826,"latency_ms":3783,"cost_usd":0.00024716}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:22:58.486Z","command":"get_missions","args":{},"error":"[session_invalid] Unauthorized — session lost"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:23:05.232Z","model":"openai/gpt-oss-20b","tokens_in":4404,"tokens_out":738,"latency_ms":6746,"cost_usd":0.00023543999999999998}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:23:05.234Z","command":"get_commands","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:23:25.628Z","model":"openai/gpt-oss-20b","tokens_in":5419,"tokens_out":2824,"latency_ms":20394,"cost_usd":0.00055793}
+{"event":"turn_end","tick":0,"ts":"2026-03-11T21:23:25.629Z","reason":"turn_complete","total_tool_calls":9,"total_tokens_in":45656,"total_tokens_out":11557}
+{"event":"scenario_end","tick":5248,"ts":"2026-03-11T21:23:27.638Z","reason":"max_ticks","final_state":{}}

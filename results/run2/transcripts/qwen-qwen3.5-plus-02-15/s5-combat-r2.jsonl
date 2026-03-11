@@ -1,0 +1,64 @@
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:44:55.120Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":2559,"tokens_out":1067,"latency_ms":11038,"cost_usd":0.013654}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:44:55.123Z","command":"register","args":{"username":"CombatBot Alpha","empire":"Crimson","registration_code": "[REDACTED]"},"error":"[invalid_empire] Invalid empire. Choose one of:\n  - solarian: Masters of energy and trade. Mining and trading bonuses.\n  - voidborn: Children of the dark. Stealth and shield bonuses.\n  - crimson: Warriors of the red nebula. Combat damage bonuses.\n  - nebula: Explorers and scientists. Exploration speed bonuses.\n  - outerrim: Frontier survivors. Crafting and cargo bonuses.\nExample: {\"type\": \"register\", \"payload\": {\"username\": \"myname\", \"empire\": \"solarian\", \"registration_code\": \"your_code\"}}"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:44:57.811Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":2769,"tokens_out":90,"latency_ms":2687,"cost_usd":0.006258}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:44:57.879Z","command":"register","args":{"username":"CombatBot Alpha","empire":"crimson","registration_code": "[REDACTED]"},"success":true,"result_chars":3735}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:45:09.335Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":4406,"tokens_out":965,"latency_ms":11456,"cost_usd":0.016531999999999998}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:45:11.978Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":4757,"tokens_out":78,"latency_ms":2640,"cost_usd":0.010138}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:45:11.979Z","command":"catalog","args":{"category":"weapon"},"error":"[invalid_type] Unknown catalog type \"\". Must be one of: ships, skills, recipes, items."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:45:13.774Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":4872,"tokens_out":41,"latency_ms":1795,"cost_usd":0.010072}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:45:13.776Z","command":"view_market","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:45:17.664Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":6231,"tokens_out":262,"latency_ms":3888,"cost_usd":0.014557999999999998}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:45:18.093Z","command":"undock","args":{},"success":true,"result_chars":14}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:45:20.257Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":6290,"tokens_out":69,"latency_ms":2163,"cost_usd":0.013132}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:45:20.259Z","command":"travel","args":{"destination":"war_materials"},"error":"[invalid_payload] Unknown parameter(s): [destination]. Requires 'target_poi'. Example: {\"target_poi\": \"main_belt\"}"}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:45:22.008Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":6404,"tokens_out":49,"latency_ms":1749,"cost_usd":0.0132}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:45:28.093Z","command":"travel","args":{"target_poi":"war_materials"},"success":true,"result_chars":130}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:45:29.877Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":6501,"tokens_out":60,"latency_ms":1784,"cost_usd":0.013482}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:45:30.093Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:45:34.313Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":6635,"tokens_out":175,"latency_ms":4220,"cost_usd":0.014669999999999999}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:45:36.091Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:45:38.096Z","command":"mine","args":{},"success":true,"result_chars":172}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:45:40.093Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:45:42.094Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:45:44.284Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":7087,"tokens_out":66,"latency_ms":2190,"cost_usd":0.014702}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:45:44.284Z","command":"get_cargo","args":{},"success":true,"result_chars":193}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:45:47.262Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":7243,"tokens_out":78,"latency_ms":2978,"cost_usd":0.015109999999999998}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:45:54.093Z","command":"travel","args":{"target_poi":"war_citadel"},"success":true,"result_chars":126}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:45:55.997Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":7370,"tokens_out":54,"latency_ms":1904,"cost_usd":0.015172}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:45:56.093Z","command":"dock","args":{},"success":true,"result_chars":1770}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:45:58.392Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":7816,"tokens_out":71,"latency_ms":2299,"cost_usd":0.0162}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:46:00.093Z","command":"sell","args":{"item_id":"iron_ore","quantity":16},"success":true,"result_chars":511}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:46:02.074Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":8068,"tokens_out":76,"latency_ms":1981,"cost_usd":0.016744}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:46:02.095Z","command":"sell","args":{"item_id":"plasma_residue","quantity":1},"success":true,"result_chars":514}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:46:03.844Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":8299,"tokens_out":72,"latency_ms":1749,"cost_usd":0.017174}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:46:03.845Z","command":"get_status","args":{},"success":true,"result_chars":1733}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:46:05.786Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":9225,"tokens_out":85,"latency_ms":1941,"cost_usd":0.019129999999999998}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:46:05.787Z","command":"facility","args":{"name":"War Market"},"success":true,"result_chars":3957}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:46:07.650Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":10244,"tokens_out":78,"latency_ms":1863,"cost_usd":0.021112}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:46:08.095Z","command":"buy","args":{"item_id":"laser_cannon_i"},"error":"[invalid_item] invalid_item: Unknown item 'laser_cannon_i'. Use exact item ID (e.g. 'iron_ore') or full name (e.g. 'Iron Ore')."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:46:09.895Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":10378,"tokens_out":69,"latency_ms":1800,"cost_usd":0.021308}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:46:09.897Z","command":"view_market","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:46:12.675Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":11750,"tokens_out":138,"latency_ms":2778,"cost_usd":0.024604}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:46:12.678Z","command":"list_ships","args":{},"success":true,"result_chars":296}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:46:14.571Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":12048,"tokens_out":70,"latency_ms":1893,"cost_usd":0.024656}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:46:14.572Z","command":"catalog","args":{"category":"items"},"error":"[invalid_type] Unknown catalog type \"\". Must be one of: ships, skills, recipes, items."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:46:15.997Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":12155,"tokens_out":40,"latency_ms":1425,"cost_usd":0.02463}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:46:15.998Z","command":"catalog","args":{},"error":"[invalid_type] Unknown catalog type \"\". Must be one of: ships, skills, recipes, items."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:46:18.675Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":12232,"tokens_out":84,"latency_ms":2677,"cost_usd":0.025136}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:46:18.677Z","command":"catalog","args":{"type":"items"},"success":true,"result_chars":4035}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:46:21.822Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":13418,"tokens_out":77,"latency_ms":3145,"cost_usd":0.027451999999999997}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:46:21.824Z","command":"catalog","args":{"type":"recipes"},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:46:23.799Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":14541,"tokens_out":80,"latency_ms":1975,"cost_usd":0.029722}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:46:23.801Z","command":"catalog","args":{"type":"ships"},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:46:26.080Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":15760,"tokens_out":98,"latency_ms":2279,"cost_usd":0.032304}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:46:26.095Z","command":"buy","args":{"item_id":"laser Cannon I"},"error":"[invalid_item] invalid_item: Unknown item 'laser Cannon I'. Use exact item ID (e.g. 'iron_ore') or full name (e.g. 'Iron Ore')."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:46:28.384Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":15913,"tokens_out":90,"latency_ms":2289,"cost_usd":0.032546}
+{"event":"tool_error","tick":0,"ts":"2026-03-11T21:46:30.092Z","command":"buy","args":{"item_id":"Laser Cannon I"},"error":"[invalid_item] invalid_item: Unknown item 'Laser Cannon I'. Use exact item ID (e.g. 'iron_ore') or full name (e.g. 'Iron Ore')."}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:46:32.140Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":16058,"tokens_out":89,"latency_ms":2048,"cost_usd":0.032827999999999996}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:46:32.142Z","command":"view_market","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:46:35.090Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":17452,"tokens_out":280,"latency_ms":2948,"cost_usd":0.037143999999999996}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:46:35.091Z","command":"catalog","args":{"type":"items"},"success":true,"result_chars":4035}
+{"event":"llm_call","tick":0,"ts":"2026-03-11T21:46:38.341Z","model":"qwen/qwen3.5-plus-02-15","tokens_in":18638,"tokens_out":82,"latency_ms":3250,"cost_usd":0.037931999999999994}
+{"event":"tool_call","tick":0,"ts":"2026-03-11T21:46:38.347Z","command":"catalog","args":{"type":"items"},"success":true,"result_chars":4035}
+{"event":"turn_end","tick":0,"ts":"2026-03-11T21:46:38.348Z","reason":"turn_complete","total_tool_calls":32,"total_tokens_in":287119,"total_tokens_out":4633}
+{"event":"scenario_end","tick":5945,"ts":"2026-03-11T21:46:40.353Z","reason":"max_ticks","final_state":{"player":{"id":"e628c604c92d85f708f8a8ae2ce61d95","username":"CombatBot Alpha","empire":"crimson","credits":196,"created_at":"2026-03-11T21:44:57.877704Z","last_login_at":"2026-03-11T21:44:57.877704Z","last_active_at":"2026-03-11T21:46:28.38503Z","status_message":"","clan_tag":"","primary_color":"#FFFFFF","secondary_color":"#000000","is_cloaked":false,"current_ship_id":"27d65d01d2e47f009d04dde94df663c0","current_system":"krynn","current_poi":"war_citadel","home_base":"crimson_war_citadel","last_chat_check":"0001-01-01T00:00:00Z","skills":{},"stats":{"credits_earned":96,"credits_spent":0,"ships_destroyed":0,"ships_lost":0,"pirates_destroyed":0,"bases_destroyed":0,"ore_mined":17,"items_crafted":0,"trades_completed":1,"systems_explored":0,"distance_traveled":0,"time_played":0},"revealed_pois":{},"docked_at_base":"crimson_war_citadel"},"ship":{"id":"27d65d01d2e47f009d04dde94df663c0","owner_id":"e628c604c92d85f708f8a8ae2ce61d95","class_id":"shard","name":"Shard","created_at":"2026-03-11T21:44:57.877738Z","hull":110,"max_hull":110,"shield":40,"max_shield":40,"shield_recharge":1,"armor":8,"speed":1,"fuel":88,"max_fuel":90,"cargo_used":2,"cargo_capacity":60,"cpu_used":2,"cpu_capacity":12,"power_used":5,"power_capacity":28,"weapon_slots":2,"defense_slots":1,"utility_slots":1,"modules":["7409bba0b897bb93e57ea2a6e7bc07fd"],"cargo":[{"item_id":"plasma_residue","quantity":1}]},"modules":[{"id":"7409bba0b897bb93e57ea2a6e7bc07fd","type_id":"mining_laser_i","name":"Mining Laser I","type":"mining","size":10,"quality":1,"quality_grade":"Standard","wear":0,"wear_status":"Pristine","cpu_usage":2,"power_usage":5,"mining_power":5,"mining_range":5}]}}
