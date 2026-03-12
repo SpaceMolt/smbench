@@ -151,7 +151,7 @@ async function main(): Promise<void> {
   const config = parseYaml(configText) as BenchmarkConfig;
 
   const serverUrl = config.server.url.replace(/\/$/, "");
-  const commanderUrl = `${serverUrl}/api/v1`; // Commander expects /api/v1 base
+  const commanderUrl = `${serverUrl}/api/v2`; // Commander uses HTTP API v2
   const adminToken = config.server.admin_token;
   const runsPerScenario = cli.overrideRuns || config.runs_per_scenario || 2;
   const commanderPath = config.commander_path;

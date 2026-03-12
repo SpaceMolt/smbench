@@ -1,0 +1,27 @@
+server:
+  url: http://localhost:8090
+  admin_token: benchmark-admin-token
+  tick_rate: 2
+
+commander_path: ../commander/src/commander.ts
+scenarios_dir: scenarios
+
+models:
+  - id: anthropic/claude-haiku-4.5
+    label: "Claude Haiku 4.5"
+    category: frontier-fast
+  - id: meta-llama/llama-3.2-3b-instruct
+    label: "Llama 3.2 3B"
+    category: budget
+  - id: z-ai/glm-4.7
+    label: "GLM 4.7"
+    category: frontier
+
+scenarios:
+  - s1-bootstrap-grind
+  - s2-navigation
+  - s3-trading
+  - s5-combat
+  - s6-mission-runner
+
+runs_per_scenario: 2
