@@ -43,7 +43,6 @@ export async function runCommander(opts: CommanderOptions): Promise<CommanderRes
   if (opts.openrouterApiKey) {
     env.OPENROUTER_API_KEY = opts.openrouterApiKey;
   }
-
   return new Promise((resolve) => {
     const events: BenchmarkEvent[] = [];
     let stderr = "";

@@ -1,0 +1,508 @@
+{
+  "benchmarkVersion": "1.0.0",
+  "timestamp": "2026-03-12T06:13:17.990Z",
+  "serverVersion": "unknown",
+  "models": [
+    {
+      "model": {
+        "id": "anthropic/claude-haiku-4.5",
+        "label": "Claude Haiku 4.5",
+        "category": "frontier-fast"
+      },
+      "scenarios": {
+        "s1-bootstrap-grind": {
+          "averageScore": 37.8,
+          "stdDev": 0.9,
+          "passRate": 1,
+          "runs": [
+            {
+              "score": 36.9,
+              "metrics": {
+                "tool_accuracy": 0.8461538461538461,
+                "tool_calls": 91,
+                "tool_errors": 14,
+                "tokens_in": 46255,
+                "tokens_out": 5924,
+                "credits_earned": 0,
+                "credits_per_tool": 0
+              },
+              "pass": true
+            },
+            {
+              "score": 38.6,
+              "metrics": {
+                "tool_accuracy": 0.9295774647887324,
+                "tool_calls": 71,
+                "tool_errors": 5,
+                "tokens_in": 43208,
+                "tokens_out": 5635,
+                "credits_earned": 0,
+                "credits_per_tool": 0
+              },
+              "pass": true
+            }
+          ]
+        },
+        "s2-navigation": {
+          "averageScore": 47.8,
+          "stdDev": 0.3,
+          "passRate": 1,
+          "runs": [
+            {
+              "score": 47.5,
+              "metrics": {
+                "tool_accuracy": 0.9,
+                "tool_calls": 40,
+                "tool_errors": 4,
+                "tokens_in": 50125,
+                "tokens_out": 5119,
+                "systems_explored": 0
+              },
+              "pass": true
+            },
+            {
+              "score": 48,
+              "metrics": {
+                "tool_accuracy": 0.9210526315789473,
+                "tool_calls": 38,
+                "tool_errors": 3,
+                "tokens_in": 48656,
+                "tokens_out": 4192,
+                "systems_explored": 0
+              },
+              "pass": true
+            }
+          ]
+        },
+        "s3-trading": {
+          "averageScore": 29,
+          "stdDev": 0.2,
+          "passRate": 1,
+          "runs": [
+            {
+              "score": 29.2,
+              "metrics": {
+                "tool_accuracy": 0.9482758620689655,
+                "tool_calls": 58,
+                "tool_errors": 3,
+                "tokens_in": 49784,
+                "tokens_out": 5317,
+                "final_credits": 0,
+                "credits_earned": 0
+              },
+              "pass": true
+            },
+            {
+              "score": 28.8,
+              "metrics": {
+                "tool_accuracy": 0.9230769230769231,
+                "tool_calls": 91,
+                "tool_errors": 7,
+                "tokens_in": 58649,
+                "tokens_out": 7673,
+                "final_credits": 0,
+                "credits_earned": 0
+              },
+              "pass": true
+            }
+          ]
+        },
+        "s5-combat": {
+          "averageScore": 44.8,
+          "stdDev": 2.3,
+          "passRate": 1,
+          "runs": [
+            {
+              "score": 42.5,
+              "metrics": {
+                "tool_accuracy": 0.7017543859649122,
+                "tool_calls": 57,
+                "tool_errors": 17,
+                "tokens_in": 42371,
+                "tokens_out": 5293,
+                "pirates_destroyed": 0
+              },
+              "pass": true
+            },
+            {
+              "score": 47,
+              "metrics": {
+                "tool_accuracy": 0.8780487804878049,
+                "tool_calls": 41,
+                "tool_errors": 5,
+                "tokens_in": 35692,
+                "tokens_out": 3979,
+                "pirates_destroyed": 0
+              },
+              "pass": true
+            }
+          ]
+        },
+        "s6-mission-runner": {
+          "averageScore": 92.8,
+          "stdDev": 0.5,
+          "passRate": 1,
+          "runs": [
+            {
+              "score": 92.2,
+              "metrics": {
+                "tool_accuracy": 0.84375,
+                "tool_calls": 96,
+                "tool_errors": 15,
+                "tokens_in": 98908,
+                "tokens_out": 8331
+              },
+              "pass": true
+            },
+            {
+              "score": 93.3,
+              "metrics": {
+                "tool_accuracy": 0.8666666666666667,
+                "tool_calls": 45,
+                "tool_errors": 6,
+                "tokens_in": 33855,
+                "tokens_out": 4751
+              },
+              "pass": true
+            }
+          ]
+        }
+      },
+      "compositeScore": 50.4
+    },
+    {
+      "model": {
+        "id": "meta-llama/llama-3.2-3b-instruct",
+        "label": "Llama 3.2 3B",
+        "category": "budget"
+      },
+      "scenarios": {
+        "s1-bootstrap-grind": {
+          "averageScore": 0,
+          "stdDev": 0,
+          "passRate": 0,
+          "runs": [
+            {
+              "score": 0,
+              "metrics": {
+                "tool_accuracy": 0,
+                "tool_calls": 0,
+                "tool_errors": 0,
+                "tokens_in": 0,
+                "tokens_out": 0,
+                "credits_earned": 0,
+                "credits_per_tool": 0
+              },
+              "pass": false
+            },
+            {
+              "score": 0,
+              "metrics": {
+                "tool_accuracy": 0,
+                "tool_calls": 0,
+                "tool_errors": 0,
+                "tokens_in": 0,
+                "tokens_out": 0,
+                "credits_earned": 0,
+                "credits_per_tool": 0
+              },
+              "pass": false
+            }
+          ]
+        },
+        "s2-navigation": {
+          "averageScore": 0,
+          "stdDev": 0,
+          "passRate": 0,
+          "runs": [
+            {
+              "score": 0,
+              "metrics": {
+                "tool_accuracy": 0,
+                "tool_calls": 0,
+                "tool_errors": 0,
+                "tokens_in": 0,
+                "tokens_out": 0,
+                "systems_explored": 0
+              },
+              "pass": false
+            },
+            {
+              "score": 0,
+              "metrics": {
+                "tool_accuracy": 0,
+                "tool_calls": 0,
+                "tool_errors": 0,
+                "tokens_in": 0,
+                "tokens_out": 0,
+                "systems_explored": 0
+              },
+              "pass": false
+            }
+          ]
+        },
+        "s3-trading": {
+          "averageScore": 0,
+          "stdDev": 0,
+          "passRate": 0,
+          "runs": [
+            {
+              "score": 0,
+              "metrics": {
+                "tool_accuracy": 0,
+                "tool_calls": 0,
+                "tool_errors": 0,
+                "tokens_in": 0,
+                "tokens_out": 0,
+                "final_credits": 0,
+                "credits_earned": 0
+              },
+              "pass": false
+            },
+            {
+              "score": 0,
+              "metrics": {
+                "tool_accuracy": 0,
+                "tool_calls": 0,
+                "tool_errors": 0,
+                "tokens_in": 0,
+                "tokens_out": 0,
+                "final_credits": 0,
+                "credits_earned": 0
+              },
+              "pass": false
+            }
+          ]
+        },
+        "s5-combat": {
+          "averageScore": 0,
+          "stdDev": 0,
+          "passRate": 0,
+          "runs": [
+            {
+              "score": 0,
+              "metrics": {
+                "tool_accuracy": 0,
+                "tool_calls": 0,
+                "tool_errors": 0,
+                "tokens_in": 0,
+                "tokens_out": 0,
+                "pirates_destroyed": 0
+              },
+              "pass": false
+            },
+            {
+              "score": 0,
+              "metrics": {
+                "tool_accuracy": 0,
+                "tool_calls": 0,
+                "tool_errors": 0,
+                "tokens_in": 0,
+                "tokens_out": 0,
+                "pirates_destroyed": 0
+              },
+              "pass": false
+            }
+          ]
+        },
+        "s6-mission-runner": {
+          "averageScore": 0,
+          "stdDev": 0,
+          "passRate": 0,
+          "runs": [
+            {
+              "score": 0,
+              "metrics": {
+                "tool_accuracy": 0,
+                "tool_calls": 0,
+                "tool_errors": 0,
+                "tokens_in": 0,
+                "tokens_out": 0
+              },
+              "pass": false
+            },
+            {
+              "score": 0,
+              "metrics": {
+                "tool_accuracy": 0,
+                "tool_calls": 0,
+                "tool_errors": 0,
+                "tokens_in": 0,
+                "tokens_out": 0
+              },
+              "pass": false
+            }
+          ]
+        }
+      },
+      "compositeScore": 0
+    },
+    {
+      "model": {
+        "id": "z-ai/glm-4.7",
+        "label": "GLM 4.7",
+        "category": "frontier"
+      },
+      "scenarios": {
+        "s1-bootstrap-grind": {
+          "averageScore": 37.6,
+          "stdDev": 1,
+          "passRate": 1,
+          "runs": [
+            {
+              "score": 38.6,
+              "metrics": {
+                "tool_accuracy": 0.9655172413793104,
+                "tool_calls": 29,
+                "tool_errors": 1,
+                "tokens_in": 21969,
+                "tokens_out": 2928,
+                "credits_earned": 0,
+                "credits_per_tool": 0
+              },
+              "pass": true
+            },
+            {
+              "score": 36.6,
+              "metrics": {
+                "tool_accuracy": 0.9615384615384616,
+                "tool_calls": 26,
+                "tool_errors": 1,
+                "tokens_in": 4533,
+                "tokens_out": 2745,
+                "credits_earned": 0,
+                "credits_per_tool": 0
+              },
+              "pass": true
+            }
+          ]
+        },
+        "s2-navigation": {
+          "averageScore": 46.3,
+          "stdDev": 0.1,
+          "passRate": 1,
+          "runs": [
+            {
+              "score": 46.1,
+              "metrics": {
+                "tool_accuracy": 0.8947368421052632,
+                "tool_calls": 19,
+                "tool_errors": 2,
+                "tokens_in": 22210,
+                "tokens_out": 3897,
+                "systems_explored": 0
+              },
+              "pass": true
+            },
+            {
+              "score": 46.4,
+              "metrics": {
+                "tool_accuracy": 0.8571428571428571,
+                "tool_calls": 21,
+                "tool_errors": 3,
+                "tokens_in": 8237,
+                "tokens_out": 3451,
+                "systems_explored": 0
+              },
+              "pass": true
+            }
+          ]
+        },
+        "s3-trading": {
+          "averageScore": 11.9,
+          "stdDev": 11.9,
+          "passRate": 0.5,
+          "runs": [
+            {
+              "score": 23.8,
+              "metrics": {
+                "tool_accuracy": 0.96,
+                "tool_calls": 25,
+                "tool_errors": 1,
+                "tokens_in": 9203,
+                "tokens_out": 2295,
+                "final_credits": 0,
+                "credits_earned": 0
+              },
+              "pass": true
+            },
+            {
+              "score": 0,
+              "metrics": {
+                "tool_accuracy": 0,
+                "tool_calls": 0,
+                "tool_errors": 0,
+                "tokens_in": 0,
+                "tokens_out": 0,
+                "final_credits": 0,
+                "credits_earned": 0
+              },
+              "pass": false
+            }
+          ]
+        },
+        "s5-combat": {
+          "averageScore": 45.2,
+          "stdDev": 0.5,
+          "passRate": 1,
+          "runs": [
+            {
+              "score": 45.7,
+              "metrics": {
+                "tool_accuracy": 0.8260869565217391,
+                "tool_calls": 46,
+                "tool_errors": 8,
+                "tokens_in": 26575,
+                "tokens_out": 3290,
+                "pirates_destroyed": 0
+              },
+              "pass": true
+            },
+            {
+              "score": 44.7,
+              "metrics": {
+                "tool_accuracy": 0.9230769230769231,
+                "tool_calls": 26,
+                "tool_errors": 2,
+                "tokens_in": 10952,
+                "tokens_out": 2659,
+                "pirates_destroyed": 0
+              },
+              "pass": true
+            }
+          ]
+        },
+        "s6-mission-runner": {
+          "averageScore": 86.9,
+          "stdDev": 1.1,
+          "passRate": 1,
+          "runs": [
+            {
+              "score": 87.9,
+              "metrics": {
+                "tool_accuracy": 0.9583333333333334,
+                "tool_calls": 24,
+                "tool_errors": 1,
+                "tokens_in": 6638,
+                "tokens_out": 3015
+              },
+              "pass": true
+            },
+            {
+              "score": 85.8,
+              "metrics": {
+                "tool_accuracy": 0.9166666666666666,
+                "tool_calls": 24,
+                "tool_errors": 2,
+                "tokens_in": 10984,
+                "tokens_out": 3072
+              },
+              "pass": true
+            }
+          ]
+        }
+      },
+      "compositeScore": 45.6
+    }
+  ]
+}

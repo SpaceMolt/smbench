@@ -1,0 +1,51 @@
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:45:58.480Z","model":"z-ai/glm-4.7","tokens_in":1964,"tokens_out":285,"latency_ms":25078,"cost_usd":0.0012131}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T05:45:58.560Z","command":"register","args":{"username":"NavigatorX","empire":"nebula","registration_code": "[REDACTED]"},"success":true,"result_chars":3789}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:46:10.819Z","model":"z-ai/glm-4.7","tokens_in":1363,"tokens_out":200,"latency_ms":12259,"cost_usd":0.0008452}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:46:39.505Z","model":"z-ai/glm-4.7","tokens_in":13,"tokens_out":222,"latency_ms":28683,"cost_usd":0.00033820000000000003}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:46:42.270Z","model":"z-ai/glm-4.7","tokens_in":10,"tokens_out":103,"latency_ms":2764,"cost_usd":0.0001585}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:46:44.616Z","model":"z-ai/glm-4.7","tokens_in":8,"tokens_out":52,"latency_ms":2345,"cost_usd":0.0000812}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T05:46:44.622Z","command":"get_map","args":{},"success":true,"result_chars":4037}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:46:58.724Z","model":"z-ai/glm-4.7","tokens_in":1565,"tokens_out":138,"latency_ms":14102,"cost_usd":0.000833}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T05:46:58.726Z","command":"get_system","args":{},"success":true,"result_chars":2067}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:47:03.120Z","model":"z-ai/glm-4.7","tokens_in":631,"tokens_out":148,"latency_ms":4394,"cost_usd":0.00047440000000000004}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:47:06.601Z","model":"z-ai/glm-4.7","tokens_in":8,"tokens_out":36,"latency_ms":3480,"cost_usd":0.000057199999999999994}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T05:47:07.947Z","command":"undock","args":{},"success":true,"result_chars":14}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:47:11.868Z","model":"z-ai/glm-4.7","tokens_in":10,"tokens_out":60,"latency_ms":3921,"cost_usd":0.00009400000000000001}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T05:47:11.869Z","command":"get_status","args":{},"success":true,"result_chars":1659}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:47:32.177Z","model":"z-ai/glm-4.7","tokens_in":690,"tokens_out":140,"latency_ms":20308,"cost_usd":0.000486}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:47:33.972Z","model":"z-ai/glm-4.7","tokens_in":8,"tokens_out":40,"latency_ms":1794,"cost_usd":0.0000632}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T05:47:33.975Z","command":"travel","args":{"system_id":"market_prime"},"error":"[invalid_payload] Unknown parameter(s): [system_id]. Requires 'target_poi'. Example: {\"target_poi\": \"main_belt\"}"}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:47:36.036Z","model":"z-ai/glm-4.7","tokens_in":38,"tokens_out":112,"latency_ms":2061,"cost_usd":0.0001832}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T05:47:36.037Z","command":"find_route","args":{"destination":"market_prime"},"error":"[invalid_payload] Unknown parameter(s): [destination]. Requires 'target_system'. Example: {\"target_system\": \"sol\"}"}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:47:37.730Z","model":"z-ai/glm-4.7","tokens_in":33,"tokens_out":47,"latency_ms":1693,"cost_usd":0.0000837}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T05:47:37.733Z","command":"find_route","args":{"target_system":"market_prime"},"success":true,"result_chars":278}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:47:43.772Z","model":"z-ai/glm-4.7","tokens_in":99,"tokens_out":313,"latency_ms":6039,"cost_usd":0.0005091000000000001}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T05:47:43.773Z","command":"get_nearby","args":{},"success":true,"result_chars":74}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:48:02.771Z","model":"z-ai/glm-4.7","tokens_in":33,"tokens_out":76,"latency_ms":18998,"cost_usd":0.0001272}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T05:48:15.944Z","command":"jump","args":{"target_system":"market_prime"},"success":true,"result_chars":129}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:48:19.072Z","model":"z-ai/glm-4.7","tokens_in":47,"tokens_out":141,"latency_ms":3127,"cost_usd":0.00023030000000000001}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:48:21.914Z","model":"z-ai/glm-4.7","tokens_in":8,"tokens_out":56,"latency_ms":2842,"cost_usd":0.0000872}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T05:48:21.915Z","command":"get_system","args":{},"success":true,"result_chars":1518}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:48:26.114Z","model":"z-ai/glm-4.7","tokens_in":475,"tokens_out":162,"latency_ms":4199,"cost_usd":0.000433}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T05:48:26.116Z","command":"get_ship","args":{},"success":true,"result_chars":2222}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:48:41.768Z","model":"z-ai/glm-4.7","tokens_in":750,"tokens_out":199,"latency_ms":15652,"cost_usd":0.0005985}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:48:44.337Z","model":"z-ai/glm-4.7","tokens_in":8,"tokens_out":43,"latency_ms":2569,"cost_usd":0.00006769999999999999}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T05:48:57.942Z","command":"jump","args":{"target_system":"cargo_lanes"},"success":true,"result_chars":131}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:49:16.738Z","model":"z-ai/glm-4.7","tokens_in":48,"tokens_out":178,"latency_ms":18796,"cost_usd":0.00028619999999999996}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:49:18.688Z","model":"z-ai/glm-4.7","tokens_in":8,"tokens_out":50,"latency_ms":1949,"cost_usd":0.0000782}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T05:49:18.689Z","command":"get_system","args":{},"success":true,"result_chars":1824}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:49:24.720Z","model":"z-ai/glm-4.7","tokens_in":597,"tokens_out":298,"latency_ms":6031,"cost_usd":0.0006858}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T05:49:24.722Z","command":"get_ship","args":{},"success":true,"result_chars":2222}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:49:27.923Z","model":"z-ai/glm-4.7","tokens_in":750,"tokens_out":115,"latency_ms":3201,"cost_usd":0.00047249999999999994}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:49:29.354Z","model":"z-ai/glm-4.7","tokens_in":8,"tokens_out":40,"latency_ms":1430,"cost_usd":0.0000632}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T05:49:41.944Z","command":"jump","args":{"target_system":"bunda"},"success":true,"result_chars":121}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:50:07.502Z","model":"z-ai/glm-4.7","tokens_in":11837,"tokens_out":130,"latency_ms":25558,"cost_usd":0.0049298}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:50:20.413Z","model":"z-ai/glm-4.7","tokens_in":8,"tokens_out":36,"latency_ms":12910,"cost_usd":0.000057199999999999994}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T05:50:20.415Z","command":"get_system","args":{},"success":true,"result_chars":1304}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:50:26.974Z","model":"z-ai/glm-4.7","tokens_in":435,"tokens_out":342,"latency_ms":6559,"cost_usd":0.000687}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T05:50:26.975Z","command":"get_ship","args":{},"success":true,"result_chars":2222}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:50:30.004Z","model":"z-ai/glm-4.7","tokens_in":750,"tokens_out":95,"latency_ms":3029,"cost_usd":0.00044249999999999997}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T05:50:32.683Z","model":"z-ai/glm-4.7","tokens_in":8,"tokens_out":40,"latency_ms":2679,"cost_usd":0.0000632}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T05:50:45.943Z","command":"jump","args":{"target_system":"gold_run"},"success":true,"result_chars":118}
+{"event":"turn_end","tick":0,"ts":"2026-03-12T05:50:45.945Z","reason":"turn_complete","total_tool_calls":19,"total_tokens_in":22210,"total_tokens_out":3897}
+{"event":"scenario_end","tick":17385,"ts":"2026-03-12T05:50:47.952Z","reason":"max_ticks","final_state":{"player":{"id":"4a51345ba03635d9746d55a99b363446","username":"NavigatorX","empire":"nebula","credits":100,"created_at":"2026-03-12T05:45:58.555911Z","last_login_at":"2026-03-12T05:45:58.555911Z","last_active_at":"2026-03-12T05:50:45.942869Z","status_message":"","clan_tag":"","primary_color":"#FFFFFF","secondary_color":"#000000","is_cloaked":false,"current_ship_id":"987dffe57664cde07a2ab32b8e395b93","current_system":"gold_run","current_poi":"aurelia","home_base":"grand_exchange_station","last_chat_check":"0001-01-01T00:00:00Z","skills":{},"stats":{"credits_earned":0,"credits_spent":0,"ships_destroyed":0,"ships_lost":0,"pirates_destroyed":0,"bases_destroyed":0,"ore_mined":0,"items_crafted":0,"trades_completed":0,"systems_explored":4,"distance_traveled":0,"time_played":0},"revealed_pois":{}},"ship":{"id":"987dffe57664cde07a2ab32b8e395b93","owner_id":"4a51345ba03635d9746d55a99b363446","class_id":"prospect","name":"Prospect","created_at":"2026-03-12T05:45:58.556916Z","hull":95,"max_hull":95,"shield":50,"max_shield":50,"shield_recharge":1,"armor":4,"speed":1,"fuel":126,"max_fuel":130,"cargo_used":0,"cargo_capacity":100,"cpu_used":2,"cpu_capacity":13,"power_used":5,"power_capacity":26,"weapon_slots":1,"defense_slots":1,"utility_slots":2,"modules":["77bf217496a6c5dee025e1581dd80dff"],"cargo":[]},"modules":[{"id":"77bf217496a6c5dee025e1581dd80dff","type_id":"mining_laser_i","name":"Mining Laser I","type":"mining","size":10,"quality":1,"quality_grade":"Standard","wear":0,"wear_status":"Pristine","cpu_usage":2,"power_usage":5,"mining_power":5,"mining_range":5}]}}

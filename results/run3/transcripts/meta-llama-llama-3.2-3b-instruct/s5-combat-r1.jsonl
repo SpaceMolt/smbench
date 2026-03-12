@@ -1,0 +1,2 @@
+{"event":"turn_end","tick":0,"ts":"2026-03-12T05:35:36.772Z","reason":"turn_complete","total_tool_calls":0,"total_tokens_in":0,"total_tokens_out":0}
+{"event":"scenario_end","tick":16930,"ts":"2026-03-12T05:35:38.780Z","reason":"max_ticks","final_state":{}}

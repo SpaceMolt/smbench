@@ -1,0 +1,56 @@
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:09:16.558Z","model":"z-ai/glm-4.7","tokens_in":2,"tokens_out":366,"latency_ms":16107,"cost_usd":0.0005498}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:09:16.630Z","command":"register","args":{"username":"MissionRunner","empire":"solarian","registration_code": "[REDACTED]"},"success":true,"result_chars":4035}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:09:19.421Z","model":"z-ai/glm-4.7","tokens_in":1687,"tokens_out":115,"latency_ms":2790,"cost_usd":0.0008472999999999999}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:09:22.603Z","model":"z-ai/glm-4.7","tokens_in":13,"tokens_out":113,"latency_ms":3181,"cost_usd":0.0001747}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:09:29.110Z","model":"z-ai/glm-4.7","tokens_in":10,"tokens_out":54,"latency_ms":6506,"cost_usd":0.000085}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:09:30.841Z","model":"z-ai/glm-4.7","tokens_in":8,"tokens_out":33,"latency_ms":1730,"cost_usd":0.00005270000000000001}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:09:30.843Z","command":"get_missions","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:09:36.505Z","model":"z-ai/glm-4.7","tokens_in":944,"tokens_out":257,"latency_ms":5662,"cost_usd":0.0007631}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:09:36.510Z","command":"get_ship","args":{},"success":true,"result_chars":2367}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:09:40.466Z","model":"z-ai/glm-4.7","tokens_in":787,"tokens_out":132,"latency_ms":3956,"cost_usd":0.0005128}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:09:40.468Z","command":"get_status","args":{},"success":true,"result_chars":1706}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:09:44.520Z","model":"z-ai/glm-4.7","tokens_in":718,"tokens_out":90,"latency_ms":4052,"cost_usd":0.00042219999999999996}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:09:44.523Z","command":"view_market","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:09:46.228Z","model":"z-ai/glm-4.7","tokens_in":1196,"tokens_out":67,"latency_ms":1705,"cost_usd":0.0005789}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:09:46.231Z","command":"facility","args":{},"success":true,"result_chars":3957}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:09:51.126Z","model":"z-ai/glm-4.7","tokens_in":861,"tokens_out":42,"latency_ms":4895,"cost_usd":0.0004074}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:09:51.130Z","command":"facility","args":{"action":"list"},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:09:52.767Z","model":"z-ai/glm-4.7","tokens_in":1078,"tokens_out":46,"latency_ms":1637,"cost_usd":0.0005001999999999999}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:09:52.770Z","command":"shipyard_showroom","args":{},"success":true,"result_chars":608}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:09:54.678Z","model":"z-ai/glm-4.7","tokens_in":140,"tokens_out":39,"latency_ms":1908,"cost_usd":0.00011449999999999999}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T06:09:54.680Z","command":"catalog","args":{},"error":"[invalid_type] Unknown catalog type \"\". Must be one of: ships, skills, recipes, items."}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:09:57.884Z","model":"z-ai/glm-4.7","tokens_in":29,"tokens_out":32,"latency_ms":3204,"cost_usd":0.0000596}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:09:57.887Z","command":"catalog","args":{"type":"items"},"success":true,"result_chars":4035}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:10:06.874Z","model":"z-ai/glm-4.7","tokens_in":1085,"tokens_out":408,"latency_ms":8987,"cost_usd":0.001046}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:10:11.144Z","model":"z-ai/glm-4.7","tokens_in":8,"tokens_out":86,"latency_ms":4269,"cost_usd":0.0001322}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:10:11.941Z","command":"accept_mission","args":{"mission_id":"five_capitals_diplomatic_circuit"},"success":true,"result_chars":624}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:10:29.881Z","model":"z-ai/glm-4.7","tokens_in":164,"tokens_out":408,"latency_ms":17940,"cost_usd":0.0006776}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:10:33.253Z","model":"z-ai/glm-4.7","tokens_in":10,"tokens_out":34,"latency_ms":3368,"cost_usd":0.000055}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:10:33.256Z","command":"get_active_missions","args":{},"success":true,"result_chars":2588}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:10:36.764Z","model":"z-ai/glm-4.7","tokens_in":629,"tokens_out":144,"latency_ms":3508,"cost_usd":0.0004676}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:10:37.943Z","command":"undock","args":{},"success":true,"result_chars":14}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:10:42.427Z","model":"z-ai/glm-4.7","tokens_in":10,"tokens_out":31,"latency_ms":4484,"cost_usd":0.0000505}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:10:43.940Z","command":"dock","args":{},"success":true,"result_chars":1875}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:10:45.796Z","model":"z-ai/glm-4.7","tokens_in":389,"tokens_out":34,"latency_ms":1856,"cost_usd":0.00020659999999999998}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:10:45.797Z","command":"get_active_missions","args":{},"success":true,"result_chars":2604}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:10:48.818Z","model":"z-ai/glm-4.7","tokens_in":640,"tokens_out":93,"latency_ms":3021,"cost_usd":0.0003955}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:10:51.019Z","model":"z-ai/glm-4.7","tokens_in":8,"tokens_out":48,"latency_ms":2201,"cost_usd":0.0000752}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T06:10:51.020Z","command":"find_route","args":{"system_id":"nexus_prime"},"error":"[invalid_payload] Unknown parameter(s): [system_id]. Requires 'target_system'. Example: {\"target_system\": \"sol\"}"}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:10:53.042Z","model":"z-ai/glm-4.7","tokens_in":34,"tokens_out":40,"latency_ms":2022,"cost_usd":0.0000736}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:10:53.045Z","command":"find_route","args":{"target_system":"nexus_prime"},"success":true,"result_chars":769}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:10:56.045Z","model":"z-ai/glm-4.7","tokens_in":290,"tokens_out":106,"latency_ms":3000,"cost_usd":0.000275}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:10:57.942Z","command":"undock","args":{},"success":true,"result_chars":14}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:11:08.727Z","model":"z-ai/glm-4.7","tokens_in":10,"tokens_out":43,"latency_ms":10785,"cost_usd":0.0000685}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:11:21.945Z","command":"jump","args":{"target_system":"sirius"},"success":true,"result_chars":113}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:11:25.907Z","model":"z-ai/glm-4.7","tokens_in":45,"tokens_out":61,"latency_ms":3958,"cost_usd":0.0001095}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:11:37.942Z","command":"jump","args":{"target_system":"nova_terra"},"success":true,"result_chars":128}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:11:42.211Z","model":"z-ai/glm-4.7","tokens_in":48,"tokens_out":36,"latency_ms":4269,"cost_usd":0.00007319999999999999}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:11:55.940Z","command":"jump","args":{"target_system":"furud"},"success":true,"result_chars":120}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:12:03.015Z","model":"z-ai/glm-4.7","tokens_in":47,"tokens_out":34,"latency_ms":7075,"cost_usd":0.0000698}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:12:15.941Z","command":"jump","args":{"target_system":"homam"},"success":true,"result_chars":115}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:12:18.304Z","model":"z-ai/glm-4.7","tokens_in":47,"tokens_out":34,"latency_ms":2363,"cost_usd":0.0000698}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:12:31.940Z","command":"jump","args":{"target_system":"antares"},"success":true,"result_chars":121}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T06:12:42.123Z","model":"z-ai/glm-4.7","tokens_in":47,"tokens_out":46,"latency_ms":10183,"cost_usd":0.00008779999999999999}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T06:12:55.948Z","command":"jump","args":{"target_system":"gsc_0041"},"success":true,"result_chars":126}
+{"event":"turn_end","tick":0,"ts":"2026-03-12T06:12:55.959Z","reason":"turn_complete","total_tool_calls":24,"total_tokens_in":10984,"total_tokens_out":3072}
+{"event":"scenario_end","tick":18050,"ts":"2026-03-12T06:12:57.965Z","reason":"max_ticks","final_state":{"player":{"id":"8cdb74c1353e842d1dd6a44a468f45d3","username":"MissionRunner","empire":"solarian","credits":100,"created_at":"2026-03-12T06:09:16.62955Z","last_login_at":"2026-03-12T06:09:16.62955Z","last_active_at":"2026-03-12T06:12:55.94158Z","status_message":"","clan_tag":"","primary_color":"#FFFFFF","secondary_color":"#000000","is_cloaked":false,"current_ship_id":"8396b5addc397d28ce59985caa7fb384","current_system":"gsc_0041","current_poi":"gsc_0041_star","home_base":"confederacy_central_command","last_chat_check":"0001-01-01T00:00:00Z","skills":{},"stats":{"credits_earned":0,"credits_spent":0,"ships_destroyed":0,"ships_lost":0,"pirates_destroyed":0,"bases_destroyed":0,"ore_mined":0,"items_crafted":0,"trades_completed":0,"systems_explored":6,"distance_traveled":0,"time_played":0},"revealed_pois":{}},"ship":{"id":"8396b5addc397d28ce59985caa7fb384","owner_id":"8cdb74c1353e842d1dd6a44a468f45d3","class_id":"theoria","name":"Theoria","created_at":"2026-03-12T06:09:16.629576Z","hull":100,"max_hull":100,"shield":55,"max_shield":55,"shield_recharge":1,"armor":5,"speed":1,"fuel":94,"max_fuel":100,"cargo_used":0,"cargo_capacity":70,"cpu_used":2,"cpu_capacity":16,"power_used":5,"power_capacity":28,"weapon_slots":1,"defense_slots":1,"utility_slots":3,"modules":["4d448a08d1d267d3cc60d0d7bf816a6b"],"cargo":[]},"modules":[{"id":"4d448a08d1d267d3cc60d0d7bf816a6b","type_id":"mining_laser_i","name":"Mining Laser I","type":"mining","size":10,"quality":1,"quality_grade":"Standard","wear":0,"wear_status":"Pristine","cpu_usage":2,"power_usage":5,"mining_power":5,"mining_range":5}]}}

@@ -1,0 +1,123 @@
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:51:51.562Z","model":"anthropic/claude-haiku-4.5","tokens_in":3797,"tokens_out":195,"latency_ms":2214,"cost_usd":0.004772}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T04:51:51.564Z","command":"get_status","args":{},"error":"[session_invalid] Unauthorized — session lost"}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T04:51:51.566Z","command":"get_cargo","args":{},"error":"[session_invalid] Unauthorized — session lost"}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T04:51:51.567Z","command":"get_ship","args":{},"error":"[session_invalid] Unauthorized — session lost"}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T04:51:51.568Z","command":"get_system","args":{},"error":"[session_invalid] Unauthorized — session lost"}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:51:54.436Z","model":"anthropic/claude-haiku-4.5","tokens_in":4145,"tokens_out":131,"latency_ms":2868,"cost_usd":0.0048}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T04:52:54.469Z","command":"login","args":{"username":"BootstrapMiner","password": "[REDACTED]"},"error":"[auth_failed] Invalid username or password. Passwords are random hex strings."}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:52:56.473Z","model":"anthropic/claude-haiku-4.5","tokens_in":4306,"tokens_out":126,"latency_ms":2002,"cost_usd":0.004936}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T04:52:56.475Z","command":"login","args":{"username":"BootstrapMiner","password": "[REDACTED]"},"error":"[auth_failed] Invalid username or password. Passwords are random hex strings."}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:52:58.640Z","model":"anthropic/claude-haiku-4.5","tokens_in":303,"tokens_out":120,"latency_ms":2165,"cost_usd":0.000903}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:52:58.725Z","command":"register","args":{"username":"BootstrapMiner","empire":"solarian","registration_code": "[REDACTED]"},"success":true,"result_chars":4035}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:53:06.168Z","model":"anthropic/claude-haiku-4.5","tokens_in":1839,"tokens_out":582,"latency_ms":7443,"cost_usd":0.004749}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:53:08.319Z","model":"anthropic/claude-haiku-4.5","tokens_in":2409,"tokens_out":86,"latency_ms":2148,"cost_usd":0.0028389999999999995}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:09.925Z","command":"undock","args":{},"success":true,"result_chars":14}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:53:11.888Z","model":"anthropic/claude-haiku-4.5","tokens_in":819,"tokens_out":85,"latency_ms":1962,"cost_usd":0.0012439999999999999}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T04:53:11.890Z","command":"travel","args":{"destination":"main_belt"},"error":"[invalid_payload] Unknown parameter(s): [destination]. Requires 'target_poi'. Example: {\"target_poi\": \"main_belt\"}"}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:53:13.720Z","model":"anthropic/claude-haiku-4.5","tokens_in":201,"tokens_out":85,"latency_ms":1830,"cost_usd":0.000626}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:21.922Z","command":"travel","args":{"target_poi":"main_belt"},"success":true,"result_chars":122}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:53:23.946Z","model":"anthropic/claude-haiku-4.5","tokens_in":260,"tokens_out":79,"latency_ms":2023,"cost_usd":0.000655}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:25.924Z","command":"mine","args":{},"success":true,"result_chars":160}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:53:28.475Z","model":"anthropic/claude-haiku-4.5","tokens_in":279,"tokens_out":206,"latency_ms":2551,"cost_usd":0.001309}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:29.922Z","command":"mine","args":{},"success":true,"result_chars":156}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:31.921Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:33.923Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:35.923Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:37.921Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:53:41.516Z","model":"anthropic/claude-haiku-4.5","tokens_in":736,"tokens_out":386,"latency_ms":3595,"cost_usd":0.002666}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:41.923Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:43.922Z","command":"mine","args":{},"success":true,"result_chars":156}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:45.922Z","command":"mine","args":{},"success":true,"result_chars":155}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:47.921Z","command":"mine","args":{},"success":true,"result_chars":156}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:49.922Z","command":"mine","args":{},"success":true,"result_chars":155}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:51.923Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:53.921Z","command":"mine","args":{},"success":true,"result_chars":156}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:55.924Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:57.939Z","command":"mine","args":{},"success":true,"result_chars":160}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:53:59.922Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:54:02.945Z","model":"anthropic/claude-haiku-4.5","tokens_in":1796,"tokens_out":383,"latency_ms":3022,"cost_usd":0.003711}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:03.924Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:05.922Z","command":"mine","args":{},"success":true,"result_chars":160}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:07.923Z","command":"mine","args":{},"success":true,"result_chars":156}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:09.929Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:11.922Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:13.922Z","command":"mine","args":{},"success":true,"result_chars":182}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:15.923Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:17.922Z","command":"mine","args":{},"success":true,"result_chars":158}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:19.922Z","command":"mine","args":{},"success":true,"result_chars":156}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T04:54:21.926Z","command":"mine","args":{},"error":"[cargo_full] Cargo hold is full"}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:54:25.666Z","model":"anthropic/claude-haiku-4.5","tokens_in":2328,"tokens_out":77,"latency_ms":3736,"cost_usd":0.0027129999999999997}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:25.668Z","command":"get_cargo","args":{},"success":true,"result_chars":522}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:54:28.008Z","model":"anthropic/claude-haiku-4.5","tokens_in":1432,"tokens_out":99,"latency_ms":2340,"cost_usd":0.001927}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:37.928Z","command":"travel","args":{"target_poi":"sol_central"},"success":true,"result_chars":126}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:54:40.287Z","model":"anthropic/claude-haiku-4.5","tokens_in":429,"tokens_out":64,"latency_ms":2359,"cost_usd":0.000749}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:41.929Z","command":"dock","args":{},"success":true,"result_chars":1875}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:54:44.075Z","model":"anthropic/claude-haiku-4.5","tokens_in":639,"tokens_out":72,"latency_ms":2146,"cost_usd":0.0009989999999999999}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:44.079Z","command":"view_market","args":{},"success":true,"result_chars":4036}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:54:46.990Z","model":"anthropic/claude-haiku-4.5","tokens_in":1857,"tokens_out":304,"latency_ms":2911,"cost_usd":0.003377}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:47.930Z","command":"sell","args":{"item_id":"iron_ore","quantity":16},"success":true,"result_chars":659}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:49.928Z","command":"sell","args":{"item_id":"copper_ore","quantity":24},"success":true,"result_chars":552}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:51.929Z","command":"sell","args":{"item_id":"nickel_ore","quantity":22},"success":true,"result_chars":500}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:53.941Z","command":"sell","args":{"item_id":"titanium_ore","quantity":3},"success":true,"result_chars":506}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:54:56.595Z","model":"anthropic/claude-haiku-4.5","tokens_in":2483,"tokens_out":183,"latency_ms":2654,"cost_usd":0.003398}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:57.930Z","command":"sell","args":{"item_id":"antimatter_containment_cell","quantity":1},"success":true,"result_chars":566}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:54:59.930Z","command":"sell","args":{"item_id":"sol_alloy_ore","quantity":1},"success":true,"result_chars":510}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:55:01.824Z","model":"anthropic/claude-haiku-4.5","tokens_in":1699,"tokens_out":74,"latency_ms":1894,"cost_usd":0.002069}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:55:01.828Z","command":"get_status","args":{},"success":true,"result_chars":1905}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:55:05.503Z","model":"anthropic/claude-haiku-4.5","tokens_in":1468,"tokens_out":167,"latency_ms":3675,"cost_usd":0.002303}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:55:05.930Z","command":"refuel","args":{},"success":true,"result_chars":46}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:55:10.636Z","model":"anthropic/claude-haiku-4.5","tokens_in":1091,"tokens_out":330,"latency_ms":4706,"cost_usd":0.0027410000000000004}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:55:14.112Z","model":"anthropic/claude-haiku-4.5","tokens_in":428,"tokens_out":319,"latency_ms":3473,"cost_usd":0.002023}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:55:17.934Z","command":"jettison","args":{"item_id":"titanium_ore","quantity":3},"success":true,"result_chars":226}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:55:19.930Z","command":"jettison","args":{"item_id":"nickel_ore","quantity":22},"success":true,"result_chars":146}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:55:21.930Z","command":"jettison","args":{"item_id":"antimatter_containment_cell","quantity":1},"success":true,"result_chars":195}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:55:23.930Z","command":"jettison","args":{"item_id":"sol_alloy_ore","quantity":1},"success":true,"result_chars":153}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:55:27.430Z","model":"anthropic/claude-haiku-4.5","tokens_in":1015,"tokens_out":101,"latency_ms":3499,"cost_usd":0.00152}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:55:35.932Z","command":"travel","args":{"target_poi":"main_belt"},"success":true,"result_chars":122}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:55:39.644Z","model":"anthropic/claude-haiku-4.5","tokens_in":834,"tokens_out":371,"latency_ms":3712,"cost_usd":0.002689}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:55:39.931Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:55:41.930Z","command":"mine","args":{},"success":true,"result_chars":156}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:55:43.931Z","command":"mine","args":{},"success":true,"result_chars":160}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:55:45.931Z","command":"mine","args":{},"success":true,"result_chars":156}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:55:47.930Z","command":"mine","args":{},"success":true,"result_chars":155}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:55:49.930Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:55:51.931Z","command":"mine","args":{},"success":true,"result_chars":160}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:55:53.931Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:55:55.932Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:55:57.931Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:56:00.968Z","model":"anthropic/claude-haiku-4.5","tokens_in":1311,"tokens_out":369,"latency_ms":3036,"cost_usd":0.003156}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:56:01.931Z","command":"mine","args":{},"success":true,"result_chars":232}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:56:03.932Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:56:05.932Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:56:07.930Z","command":"mine","args":{},"success":true,"result_chars":158}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:56:09.931Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:56:11.931Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:56:13.930Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:56:15.930Z","command":"mine","args":{},"success":true,"result_chars":156}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:56:17.929Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:56:19.932Z","command":"mine","args":{},"success":true,"result_chars":153}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:56:23.558Z","model":"anthropic/claude-haiku-4.5","tokens_in":2375,"tokens_out":373,"latency_ms":3626,"cost_usd":0.00424}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:56:23.932Z","command":"mine","args":{},"success":true,"result_chars":156}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:56:25.930Z","command":"mine","args":{},"success":true,"result_chars":155}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:56:27.932Z","command":"mine","args":{},"success":true,"result_chars":160}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:56:29.930Z","command":"mine","args":{},"success":true,"result_chars":157}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T04:56:31.929Z","command":"mine","args":{},"error":"[cargo_full] Cargo hold is full"}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T04:56:33.930Z","command":"mine","args":{},"error":"[cargo_full] Cargo hold is full"}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T04:56:35.929Z","command":"mine","args":{},"error":"[cargo_full] Cargo hold is full"}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T04:56:37.931Z","command":"mine","args":{},"error":"[cargo_full] Cargo hold is full"}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T04:56:39.931Z","command":"mine","args":{},"error":"[cargo_full] Cargo hold is full"}
+{"event":"tool_error","tick":0,"ts":"2026-03-12T04:56:41.933Z","command":"mine","args":{},"error":"[cargo_full] Cargo hold is full"}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:56:44.915Z","model":"anthropic/claude-haiku-4.5","tokens_in":2114,"tokens_out":95,"latency_ms":2981,"cost_usd":0.002589}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:56:53.929Z","command":"travel","args":{"target_poi":"sol_central"},"success":true,"result_chars":126}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:56:56.851Z","model":"anthropic/claude-haiku-4.5","tokens_in":1050,"tokens_out":96,"latency_ms":2922,"cost_usd":0.0015300000000000001}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:56:57.931Z","command":"dock","args":{},"success":true,"result_chars":1875}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:56:57.932Z","command":"get_cargo","args":{},"success":true,"result_chars":415}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:57:01.084Z","model":"anthropic/claude-haiku-4.5","tokens_in":893,"tokens_out":289,"latency_ms":3152,"cost_usd":0.002338}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:57:01.931Z","command":"sell","args":{"item_id":"iron_ore","quantity":24},"success":true,"result_chars":662}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:57:03.930Z","command":"sell","args":{"item_id":"copper_ore","quantity":23},"success":true,"result_chars":668}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:57:05.934Z","command":"sell","args":{"item_id":"nickel_ore","quantity":18},"success":true,"result_chars":500}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:57:07.930Z","command":"sell","args":{"item_id":"titanium_ore","quantity":3},"success":true,"result_chars":506}
+{"event":"llm_call","tick":0,"ts":"2026-03-12T04:57:10.499Z","model":"anthropic/claude-haiku-4.5","tokens_in":1919,"tokens_out":77,"latency_ms":2569,"cost_usd":0.002304}
+{"event":"tool_call","tick":0,"ts":"2026-03-12T04:57:10.500Z","command":"get_status","args":{},"success":true,"result_chars":1852}
+{"event":"turn_end","tick":0,"ts":"2026-03-12T04:57:10.501Z","reason":"turn_complete","total_tool_calls":91,"total_tokens_in":46255,"total_tokens_out":5924}
+{"event":"scenario_end","tick":15777,"ts":"2026-03-12T04:57:12.505Z","reason":"max_ticks","final_state":{"player":{"id":"07dadf8d5c0105d95b05b4851bd43bf1","username":"BootstrapMiner","empire":"solarian","credits":721,"created_at":"2026-03-12T04:52:58.720973Z","last_login_at":"2026-03-12T04:52:58.720973Z","last_active_at":"2026-03-12T04:57:05.934959Z","status_message":"","clan_tag":"","primary_color":"#FFFFFF","secondary_color":"#000000","is_cloaked":false,"current_ship_id":"82b373a5cbd27cc8040aefee0ab79a2e","current_system":"sol","current_poi":"sol_central","home_base":"confederacy_central_command","last_chat_check":"0001-01-01T00:00:00Z","skills":{"mining":1},"stats":{"credits_earned":623,"credits_spent":2,"ships_destroyed":0,"ships_lost":0,"pirates_destroyed":0,"bases_destroyed":0,"ore_mined":136,"items_crafted":0,"trades_completed":4,"systems_explored":0,"distance_traveled":0,"time_played":0},"revealed_pois":{},"docked_at_base":"confederacy_central_command"},"ship":{"id":"82b373a5cbd27cc8040aefee0ab79a2e","owner_id":"07dadf8d5c0105d95b05b4851bd43bf1","class_id":"theoria","name":"Theoria","created_at":"2026-03-12T04:52:58.721295Z","hull":100,"max_hull":100,"shield":55,"max_shield":55,"shield_recharge":1,"armor":5,"speed":1,"fuel":98,"max_fuel":100,"cargo_used":23,"cargo_capacity":70,"cpu_used":2,"cpu_capacity":16,"power_used":5,"power_capacity":28,"weapon_slots":1,"defense_slots":1,"utility_slots":3,"modules":["17cad3f2071966853c4b7afcbba62ee6"],"cargo":[{"item_id":"nickel_ore","quantity":18},{"item_id":"titanium_ore","quantity":3},{"item_id":"sol_alloy_ore","quantity":1}]},"modules":[{"id":"17cad3f2071966853c4b7afcbba62ee6","type_id":"mining_laser_i","name":"Mining Laser I","type":"mining","size":10,"quality":1,"quality_grade":"Standard","wear":0,"wear_status":"Pristine","cpu_usage":2,"power_usage":5,"mining_power":5,"mining_range":5}]}}
